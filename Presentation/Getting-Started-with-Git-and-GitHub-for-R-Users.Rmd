@@ -1,0 +1,98 @@
+---
+title: "Getting Start with Git and GitHub for R Users"
+author: "Saghir Bashir"
+date: "`r format(Sys.time(), '%a %d %b %Y (%H:%M:%S)')`"
+output:
+  xaringan::moon_reader:
+    chakra: libs/remark-latest.min.js
+    css: [tweaks.css, default, robot-fonts]
+    self_contained: true
+    # lib_dir: libs
+    # https://github.com/gnab/remark/wiki/Configuration
+    nature:
+      ratio: 16:9
+      highlightStyle: default
+      highlightLanguage: r
+      highlightLines: true
+      highlightSpans: false
+      countIncrementalSlides: false
+      slideNumberFormat: "%current%"
+    seal: false
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+library(kableExtra)
+library(emojifont)
+library(here)
+
+# Copied & modified from: https://github.com/gadenbuie/gentle-ggplot2 (Index.Rmd)
+#
+# Thanks to Garrick Aden-Buie (https://www.garrickadenbuie.com/) for sharing :)
+#
+
+knitr::opts_chunk$set(fig.width=4.4, fig.height=3.2, fig.retina=4,
+                      out.width = "100%",
+                      message=FALSE, warning=FALSE, cache = TRUE, 
+                      autodep = TRUE, hiline=TRUE)
+
+knitr::opts_hooks$set(fig.callout = function(options) {
+  if (options$fig.callout) {
+    options$echo <- FALSE
+    options$out.height <- "99%"
+    options$fig.width <- 16
+    options$fig.height <- 8
+  }
+  options
+})
+
+options(
+  htmltools.dir.version = FALSE, 
+  width = 90,
+  # max.print = 9999,
+  knitr.table.format = "html"
+)
+
+```
+
+class: middle, center
+
+
+# Getting Start with Git and GitHub 
+
+# for R Users
+
+<br>
+
+### Saghir Bashir<br><br>24th May 2019
+
+
+---
+class: inverse, middle, center
+
+# Relax
+
+# Experiment
+
+# Make Mistakes
+
+# Learn
+
+# Enjoy
+
+---
+class: middle, center
+
+
+
+# Outline
+
+## Motivation
+
+## Discover GitHub
+
+## Git to GitHub
+
+## Summary
+
+
