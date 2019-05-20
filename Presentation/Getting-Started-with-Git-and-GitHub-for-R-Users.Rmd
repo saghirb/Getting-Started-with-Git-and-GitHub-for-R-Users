@@ -56,7 +56,7 @@ options(
 
 class: middle, center
 
-<div class="git-icon-left-top"></div> 
+<div class="git-icon-red-left-top"></div> 
 <div class="GH-Octocat-right-bottom"></div> 
 <div class="rlogo-logo-left-bottom"></div> 
 
@@ -85,7 +85,7 @@ class: inverse, middle, center
 ---
 class: middle, center
 
-<div class="git-icon-left-top"></div> 
+<div class="git-icon-red-left-top"></div> 
 <div class="GH-Octocat-right-bottom"></div> 
 <div class="rlogo-logo-left-bottom"></div> 
 
@@ -482,18 +482,18 @@ class: inverse, middle, center
 <div class="rlogo-logo-right-top"></div>
 <div class="emoji-thinking-right-bottom"></div>
 
-## The future you...
+# The FUTURE YOU
 
 .pull-left[
-<br>
+## Things have changed.
 
-### Needs to update the project.
+### Need to update the project.
 
-### Receives updated data.
+### Receive updated data.
 
-### Discovers an error.
+### Discovered an error.
 
-### Continues on the project.
+### Continue on the project.
 
 ### ...
 ]
@@ -518,6 +518,8 @@ class: inverse, middle, center
 
 # Other Issues
 
+<br> 
+
 ## What changed between files?
 
 ## What needs to be done?
@@ -531,10 +533,12 @@ class: inverse, middle, center
 ---
 class: inverse, middle, center
 
+<div class="GH-Mark-White-right-top"></div> 
 <div class="git-icon-white-left-top"></div> 
-<div class="GH-Mark-White-right-bottom"></div> 
 
 # Git & GitHub
+
+<br>
 
 ## Track changes
 
@@ -544,4 +548,77 @@ class: inverse, middle, center
 
 ## Track issues 
 
+---
+class: inverse, middle, center
+
+<div class="GH-Mark-White-right-top"></div> 
+
+# Discover GitHub
+
+---
+class: middle
+
+<div class="git-icon-red-right-top"></div> 
+<div class="GH-Octocat-right-bottom"></div> 
+
+# Objectives
+
+## Learn GitHub through observation
+
+## What do you observe? 
+
+## What do you understand?
+
+## Your understanding - not about being right
+
+---
+class: top center
+
+### https://github.com/saghirb/Getting-Started-in-R
+
+![https://github.com/saghirb/Getting-Started-in-R](images/saghirb-GSiR-GitHub.jpg)
+
+---
+<div class="GH-Octocat-right-top"></div> 
+
+# Discover a GitHub Repository
+
+.pull-left[
+### General
+
++ What file types do you recognise?
++ What is at the end of the main page?
+    + How is "README.md" linked?
+
+### Click on "Commit"
+
++ When was the repository created?
++ When was the last "commit"?
++ When were all the R chunks labelled?
+    - Click on the link. What do you see?
++ What do you think a "commit" is?
+]
+
+.pull-right[
+### Issues
+
++ How many issues are open and closed?
++ Click on one open and once closed issue.
+    - What is the difference?
+    
+### Forks
+
++ How many forks are there?
++ What is a "fork"?
+    + Hint: click on one of the forks.
+  
+]
+
+---
+class: inverse, middle, center
+
+<div class="GH-Mark-White-right-top"></div> 
+<div class="git-icon-white-left-top"></div> 
+
+# Git to GitHub
 
