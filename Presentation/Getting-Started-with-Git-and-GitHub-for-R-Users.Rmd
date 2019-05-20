@@ -21,10 +21,9 @@ output:
 ---
 
 ```{r setup, include=FALSE}
+library(here)
 library(knitr)
 library(kableExtra)
-library(emojifont)
-library(here)
 
 # Copied & modified from: https://github.com/gadenbuie/gentle-ggplot2 (Index.Rmd)
 #
@@ -57,10 +56,13 @@ options(
 
 class: middle, center
 
+<div class="git-icon-left-top"></div> 
+<div class="GH-Octocat-right-bottom"></div> 
+<div class="rlogo-logo-left-bottom"></div> 
 
-# Getting Start with Git and GitHub 
+# Getting Start with Git
 
-# for R Users
+# and GitHub for R Users
 
 <br>
 
@@ -83,7 +85,9 @@ class: inverse, middle, center
 ---
 class: middle, center
 
-
+<div class="git-icon-left-top"></div> 
+<div class="GH-Octocat-right-bottom"></div> 
+<div class="rlogo-logo-left-bottom"></div> 
 
 # Outline
 
@@ -94,5 +98,450 @@ class: middle, center
 ## Git to GitHub
 
 ## Summary
+
+---
+class: inverse, middle, center
+
+# Motivation
+<br>
+# Why?
+
+---
+<div class="rlogo-logo-right-top"></div>
+
+# Developing an R Program
+
+.pull-left[
+## R Program
+```
+# Thesis Project Data Cleaning
+library(data.table)
+library(here)
+
+tdata <- fread(here("mydata.csv"))
+
+... some data cleaning code here ...
+
+```
+]
+
+--
+
+.pull-right[
+## Processing R Program
+
+1. Save as "thesis-data.R"
+
+]
+
+---
+<div class="rlogo-logo-right-top"></div>
+
+# Developing an R Program
+
+.pull-left[
+## R Program
+```
+# Thesis Project Data Cleaning
+library(data.table)
+library(here)
+
+tdata <- fread(here("mydata.csv"))
+
+... some data cleaning code here ...
+
+... some more data cleaning code here ...
+
+
+```
+]
+
+.pull-right[
+## Processing R Program
+
+1. Save as "thesis-data.R" 
+2. Overwrite "thesis-data.R" 
+]
+
+---
+<div class="rlogo-logo-right-top"></div>
+
+# Developing an R Program
+
+.pull-left[
+## R Program
+```
+# Thesis Project Data Cleaning
+library(data.table)
+library(here)
+
+tdata <- fread(here("mydata.csv"))
+
+... some data cleaning code here ...
+
+... some more data cleaning code here ...
+
+... summary statistics to check data ...
+
+
+```
+]
+
+.pull-right[
+## Processing R Program
+
+1. Save as "thesis-data.R" 
+2. Overwrite "thesis-data.R" 
+3. Overwrite "thesis-data.R" again
+]
+
+---
+<div class="rlogo-logo-right-top"></div>
+
+# Developing an R Program
+
+.pull-left[
+## R Program
+```
+# Thesis Project Data Cleaning
+library(data.table)
+library(here)
+
+tdata <- fread(here("mydata.csv"))
+
+... some data cleaning code here ...
+
+... MODIFY data cleaning code here ...
+
+... summary statistics to check data ...
+
+
+```
+]
+
+.pull-right[
+## Processing R Program
+
+1. Save as "thesis-data.R" 
+2. Overwrite "thesis-data.R" 
+3. Overwrite "thesis-data.R" again
+4. Overwrite "thesis-data.R" with modification
+]
+
+---
+<div class="rlogo-logo-right-top"></div>
+<div class="emoji-crying-right-bottom"></div>
+
+# Developing an R Program
+
+.pull-left[
+## R Program
+```
+# Thesis Project Data Cleaning
+library(data.table)
+library(here)
+
+tdata <- fread(here("mydata.csv"))
+
+... some data cleaning code here ...
+
+... MODIFY data cleaning code here ...
+
+... summary statistics to check data ...
+
+!!! Modified code messed up summary statitics !!!
+
+!! Previous code worked better  !!!
+
+```
+]
+
+.pull-right[
+## Processing R Program
+
+1. Save as "thesis-data.R" 
+2. Overwrite "thesis-data.R" 
+3. Overwrite "thesis-data.R" again
+4. Overwrite "thesis-data.R" with modification
+5. Redo work that you did before
+]
+
+
+
+
+---
+<div class="rlogo-logo-right-top"></div>
+
+# R Program -- Saving Versions
+
+.pull-left[
+## R Program
+```
+# Thesis Project Data Cleaning
+library(data.table)
+library(here)
+
+tdata <- fread(here("mydata.csv"))
+
+... some data cleaning code here ...
+
+```
+]
+
+--
+
+.pull-right[
+## Processing R Program
+
+1. Save as "thesis-data-01.R"
+
+]
+
+---
+<div class="rlogo-logo-right-top"></div>
+
+# R Program -- Saving Versions
+
+.pull-left[
+## R Program
+```
+# Thesis Project Data Cleaning
+library(data.table)
+library(here)
+
+tdata <- fread(here("mydata.csv"))
+
+... some data cleaning code here ...
+
+... some more data cleaning code here ...
+
+
+```
+]
+
+.pull-right[
+## Processing R Program
+
+1. Save as "thesis-data-01.R" 
+2. Save as "thesis-data-02.R" 
+]
+
+---
+<div class="rlogo-logo-right-top"></div>
+
+# R Program -- Saving Versions
+
+.pull-left[
+## R Program
+```
+# Thesis Project Data Cleaning
+library(data.table)
+library(here)
+
+tdata <- fread(here("mydata.csv"))
+
+... some data cleaning code here ...
+
+... some more data cleaning code here ...
+
+... summary statistics to check data ...
+
+
+```
+]
+
+.pull-right[
+## Processing R Program
+
+1. Save as "thesis-data-01.R" 
+2. Save as "thesis-data-02.R" 
+3. Save as "thesis-data-03.R" 
+]
+
+---
+<div class="rlogo-logo-right-top"></div>
+
+# R Program -- Saving Versions
+
+.pull-left[
+## R Program
+```
+# Thesis Project Data Cleaning
+library(data.table)
+library(here)
+
+tdata <- fread(here("mydata.csv"))
+
+... some data cleaning code here ...
+
+... MODIFY data cleaning code here ...
+
+... summary statistics to check data ...
+
+
+```
+]
+
+.pull-right[
+## Processing R Program
+1. Save as "thesis-data-01.R" 
+2. Save as "thesis-data-02.R" 
+3. Save as "thesis-data-03.R" 
+4. Save as "thesis-data-04.R" 
+]
+
+---
+<div class="rlogo-logo-right-top"></div>
+
+# R Program -- Saving Versions
+
+.pull-left[
+## R Program
+```
+# Thesis Project Data Cleaning
+library(data.table)
+library(here)
+
+tdata <- fread(here("mydata.csv"))
+
+... some data cleaning code here ...
+
+... MODIFY data cleaning code here ...
+
+... summary statistics to check data ...
+
+!!! Modified code messed up summary statitics !!!
+
+... If I remember I can go back version 03 !!!
+
+... Fixed send this final version to supervisor, ... 
+
+```
+]
+
+.pull-right[
+## Processing R Program
+
+1. Save as "thesis-data-01.R" 
+2. Save as "thesis-data-02.R" 
+3. Save as "thesis-data-03.R" 
+4. Save as "thesis-data-04.R" 
+5. Save as "thesis-data-Final.R" 
+]
+
+---
+<div class="rlogo-logo-right-top"></div>
+
+# R Program -- Saving Versions
+
+.pull-left[
+## R Program
+```
+# Thesis Project Data Cleaning
+library(data.table)
+library(here)
+
+tdata <- fread(here("mydata.csv"))
+
+... some data cleaning code here ...
+
+... MODIFY data cleaning code here ...
+
+... summary statistics to check data ...
+
+!!! Modified code messed up summary statitics !!!
+
+... If I remember I can go back version 03 !!!
+
+... Fixed send this final version to supervisor, ... 
+
+```
+]
+
+.pull-right[
+## Processing R Program
+
+1. Save as "thesis-data-01.R" 
+2. Save as "thesis-data-02.R" 
+3. Save as "thesis-data-03.R" 
+4. Save as "thesis-data-04.R" 
+5. Save as "thesis-data-Final.R" 
+6. Received "thesis-data-Final-Sup.R" from Supervisor
+7. ... "thesis-data-Final-Sup-ME.R"
+8. ... "thesis-data-Final-Sup-ME-minor.R"
+9. ... "thesis-data-Final-Last.R"
+...
+]
+
+---
+class: inverse, middle, center
+
+# Six months later...
+
+---
+<div class="rlogo-logo-right-top"></div>
+<div class="emoji-thinking-right-bottom"></div>
+
+## The future you...
+
+.pull-left[
+<br>
+
+### Needs to update the project.
+
+### Receives updated data.
+
+### Discovers an error.
+
+### Continues on the project.
+
+### ...
+]
+
+.pull-right[
+## Continue from where?
+
++ "thesis-data-01.R"                
++ "thesis-data-02.R"                
++ "thesis-data-03.R"                
++ "thesis-data-04.R"                
++ "thesis-data-Final-Last.R"        
++ "thesis-data-Final-Sup-ME-minor.R"
++ "thesis-data-Final-Sup-ME.R"      
++ "thesis-data-Final-Sup.R"         
++ "thesis-data-Final.R"      
+...
+]
+
+---
+<div class="emoji-exploding-head-right-bottom"></div>
+
+# Other Issues
+
+## What changed between files?
+
+## What needs to be done?
+
+## What issues are there?
+
+## How can multiple people collaborate?
+
+...
+
+---
+class: inverse, middle, center
+
+<div class="git-icon-white-left-top"></div> 
+<div class="GH-Mark-White-right-bottom"></div> 
+
+# Git & GitHub
+
+## Track changes
+
+## Share your work 
+
+## Collaborate 
+
+## Track issues 
 
 
