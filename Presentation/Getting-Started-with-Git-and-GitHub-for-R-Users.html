@@ -395,8 +395,7 @@ library(here)
 
 tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 
-... some data cleaning code here ...
-
+# ... some data cleaning code here ...
 ```
 ]
 
@@ -405,7 +404,7 @@ tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 .pull-right[
 ## Processing R Program
 
-1. Save as &quot;thesis-data.R&quot;
+1. Save as **&quot;thesis-data.R&quot;**
 
 ]
 
@@ -416,18 +415,47 @@ tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 
 .pull-left[
 ## R Program
-```
+
+```r
 # Thesis Project Data Cleaning
 library(data.table)
 library(here)
 
 tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 
-... some data cleaning code here ...
+# ... some data cleaning code here ...
 
-... some more data cleaning code here ...
+*# ... some more data cleaning code here ...
+```
+]
 
+.pull-right[
+## Processing R Program
 
+1. Save as &quot;thesis-data.R&quot; 
+2. Overwrite **&quot;thesis-data.R&quot;**
+]
+
+---
+&lt;div class=&quot;rlogo-logo-right-top&quot;&gt;&lt;/div&gt;
+
+# Developing an R Program
+
+.pull-left[
+## R Program
+
+```r
+# Thesis Project Data Cleaning
+library(data.table)
+library(here)
+
+tdata &lt;- fread(here(&quot;mydata.csv&quot;))
+
+# ... some data cleaning code here ...
+
+# ... some more data cleaning code here ...
+
+*# ... summary statistics to check data ...
 ```
 ]
 
@@ -436,6 +464,7 @@ tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 
 1. Save as &quot;thesis-data.R&quot; 
 2. Overwrite &quot;thesis-data.R&quot; 
+3. Overwrite **&quot;thesis-data.R&quot;** again
 ]
 
 ---
@@ -445,20 +474,19 @@ tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 
 .pull-left[
 ## R Program
-```
+
+```r
 # Thesis Project Data Cleaning
 library(data.table)
 library(here)
 
 tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 
-... some data cleaning code here ...
+# ... some data cleaning code here ...
 
-... some more data cleaning code here ...
+*# ... MODIFY data cleaning code here ...
 
-... summary statistics to check data ...
-
-
+# ... summary statistics to check data ...
 ```
 ]
 
@@ -468,39 +496,7 @@ tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 1. Save as &quot;thesis-data.R&quot; 
 2. Overwrite &quot;thesis-data.R&quot; 
 3. Overwrite &quot;thesis-data.R&quot; again
-]
-
----
-&lt;div class=&quot;rlogo-logo-right-top&quot;&gt;&lt;/div&gt;
-
-# Developing an R Program
-
-.pull-left[
-## R Program
-```
-# Thesis Project Data Cleaning
-library(data.table)
-library(here)
-
-tdata &lt;- fread(here(&quot;mydata.csv&quot;))
-
-... some data cleaning code here ...
-
-... MODIFY data cleaning code here ...
-
-... summary statistics to check data ...
-
-
-```
-]
-
-.pull-right[
-## Processing R Program
-
-1. Save as &quot;thesis-data.R&quot; 
-2. Overwrite &quot;thesis-data.R&quot; 
-3. Overwrite &quot;thesis-data.R&quot; again
-4. Overwrite &quot;thesis-data.R&quot; with modification
+4. Overwrite **&quot;thesis-data.R&quot;** with modification
 ]
 
 ---
@@ -511,23 +507,23 @@ tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 
 .pull-left[
 ## R Program
-```
+
+```r
 # Thesis Project Data Cleaning
 library(data.table)
 library(here)
 
 tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 
-... some data cleaning code here ...
+# ... some data cleaning code here ...
 
-... MODIFY data cleaning code here ...
+# ... MODIFY data cleaning code here ...
 
-... summary statistics to check data ...
+# ... summary statistics to check data ...
 
-!!! Modified code messed up summary statitics !!!
+*# !!! Modified code messed up summary statitics !!!
 
-!! Previous code worked better  !!!
-
+*# !!! Previous code worked better  !!!
 ```
 ]
 
@@ -551,15 +547,15 @@ tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 
 .pull-left[
 ## R Program
-```
+
+```r
 # Thesis Project Data Cleaning
 library(data.table)
 library(here)
 
 tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 
-... some data cleaning code here ...
-
+# ... some data cleaning code here ...
 ```
 ]
 
@@ -568,7 +564,7 @@ tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 .pull-right[
 ## Processing R Program
 
-1. Save as &quot;thesis-data-01.R&quot;
+1. Save as **&quot;thesis-data-01.R&quot;**
 
 ]
 
@@ -579,18 +575,47 @@ tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 
 .pull-left[
 ## R Program
-```
+
+```r
 # Thesis Project Data Cleaning
 library(data.table)
 library(here)
 
 tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 
-... some data cleaning code here ...
+# ... some data cleaning code here ...
 
-... some more data cleaning code here ...
+*# ... some more data cleaning code here ...
+```
+]
 
+.pull-right[
+## Processing R Program
 
+1. Save as &quot;thesis-data-01.R&quot; 
+2. Save as **&quot;thesis-data-02.R&quot;**
+]
+
+---
+&lt;div class=&quot;rlogo-logo-right-top&quot;&gt;&lt;/div&gt;
+
+# R Program -- Saving Versions
+
+.pull-left[
+## R Program
+
+```r
+# Thesis Project Data Cleaning
+library(data.table)
+library(here)
+
+tdata &lt;- fread(here(&quot;mydata.csv&quot;))
+
+# ... some data cleaning code here ...
+
+# ... some more data cleaning code here ...
+
+*# ... summary statistics to check data ...
 ```
 ]
 
@@ -599,6 +624,7 @@ tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 
 1. Save as &quot;thesis-data-01.R&quot; 
 2. Save as &quot;thesis-data-02.R&quot; 
+3. Save as **&quot;thesis-data-03.R&quot;**
 ]
 
 ---
@@ -608,52 +634,19 @@ tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 
 .pull-left[
 ## R Program
-```
+
+```r
 # Thesis Project Data Cleaning
 library(data.table)
 library(here)
 
 tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 
-... some data cleaning code here ...
+# ... some data cleaning code here ...
 
-... some more data cleaning code here ...
+*# ... MODIFY data cleaning code here ...
 
-... summary statistics to check data ...
-
-
-```
-]
-
-.pull-right[
-## Processing R Program
-
-1. Save as &quot;thesis-data-01.R&quot; 
-2. Save as &quot;thesis-data-02.R&quot; 
-3. Save as &quot;thesis-data-03.R&quot; 
-]
-
----
-&lt;div class=&quot;rlogo-logo-right-top&quot;&gt;&lt;/div&gt;
-
-# R Program -- Saving Versions
-
-.pull-left[
-## R Program
-```
-# Thesis Project Data Cleaning
-library(data.table)
-library(here)
-
-tdata &lt;- fread(here(&quot;mydata.csv&quot;))
-
-... some data cleaning code here ...
-
-... MODIFY data cleaning code here ...
-
-... summary statistics to check data ...
-
-
+# ... summary statistics to check data ...
 ```
 ]
 
@@ -662,7 +655,7 @@ tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 1. Save as &quot;thesis-data-01.R&quot; 
 2. Save as &quot;thesis-data-02.R&quot; 
 3. Save as &quot;thesis-data-03.R&quot; 
-4. Save as &quot;thesis-data-04.R&quot; 
+4. Save as **&quot;thesis-data-04.R&quot;** 
 ]
 
 ---
@@ -672,25 +665,25 @@ tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 
 .pull-left[
 ## R Program
-```
+
+```r
 # Thesis Project Data Cleaning
 library(data.table)
 library(here)
 
 tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 
-... some data cleaning code here ...
+# ... some data cleaning code here ...
 
-... MODIFY data cleaning code here ...
+# ... MODIFY data cleaning code here ...
 
-... summary statistics to check data ...
+# ... summary statistics to check data ...
 
-!!! Modified code messed up summary statitics !!!
+*# !!! Modified code messed up summary statitics !!!
 
-... If I remember I can go back version 03 !!!
+*# ... I remember I can go back version 03 !!!
 
-... Fixed send this final version to supervisor, ... 
-
+*# ... Fixed, send final version to supervisor, ...
 ```
 ]
 
@@ -701,7 +694,8 @@ tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 2. Save as &quot;thesis-data-02.R&quot; 
 3. Save as &quot;thesis-data-03.R&quot; 
 4. Save as &quot;thesis-data-04.R&quot; 
-5. Save as &quot;thesis-data-Final.R&quot; 
+5. Save as **&quot;thesis-data-Final.R&quot;**
+    + Send to supervisor
 ]
 
 ---
@@ -711,25 +705,25 @@ tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 
 .pull-left[
 ## R Program
-```
+
+```r
 # Thesis Project Data Cleaning
 library(data.table)
 library(here)
 
 tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 
-... some data cleaning code here ...
+# ... some data cleaning code here ...
 
-... MODIFY data cleaning code here ...
+# ... MODIFY data cleaning code here ...
 
-... summary statistics to check data ...
+# ... summary statistics to check data ...
 
-!!! Modified code messed up summary statitics !!!
+# !!! Modified code messed up summary statitics !!! 
 
-... If I remember I can go back version 03 !!!
+# ... Fixed, send final version to supervisor, ...  
 
-... Fixed send this final version to supervisor, ... 
-
+*# ... and real life continues ...
 ```
 ]
 
@@ -740,12 +734,11 @@ tdata &lt;- fread(here(&quot;mydata.csv&quot;))
 2. Save as &quot;thesis-data-02.R&quot; 
 3. Save as &quot;thesis-data-03.R&quot; 
 4. Save as &quot;thesis-data-04.R&quot; 
-5. Save as &quot;thesis-data-Final.R&quot; 
-6. Received &quot;thesis-data-Final-Sup.R&quot; from Supervisor
-7. ... &quot;thesis-data-Final-Sup-ME.R&quot;
-8. ... &quot;thesis-data-Final-Sup-ME-minor.R&quot;
-9. ... &quot;thesis-data-Final-Last.R&quot;
-...
+5. Save as &quot;thesis-data-Final.R&quot;
+6. ... **&quot;thesis-data-Final-Sup.R&quot;** 
+    + Received from supervisor
+7. ... **&quot;thesis-data-Final-Sup-ME.R&quot;** 
+8. ... 
 ]
 
 ---
@@ -776,15 +769,17 @@ class: inverse, middle, center
 .pull-right[
 ## Continue from where?
 
-+ &quot;thesis-data-01.R&quot;                
-+ &quot;thesis-data-02.R&quot;                
-+ &quot;thesis-data-03.R&quot;                
-+ &quot;thesis-data-04.R&quot;                
-+ &quot;thesis-data-Final-Last.R&quot;        
-+ &quot;thesis-data-Final-Sup-ME-minor.R&quot;
-+ &quot;thesis-data-Final-Sup-ME.R&quot;      
-+ &quot;thesis-data-Final-Sup.R&quot;         
-+ &quot;thesis-data-Final.R&quot;      
++ &quot;thesis-data-01.R&quot;
++ &quot;thesis-data-02.R&quot;
++ &quot;thesis-data-03.R&quot;
++ &quot;thesis-data-04.R&quot;
++ &quot;thesis-data-Final-Closed&quot;
++ &quot;thesis-data-Final-Last.R&quot;
++ &quot;thesis-data-Final-Sup-ME-minor.R&quot; 
++ &quot;thesis-data-Final-Sup-ME.R&quot;
++ &quot;thesis-data-Final-Sup.R&quot;
++ &quot;thesis-data-Final.R&quot;
++ &quot;thesis-data-Final2.R&quot;
 ...
 ]
 
