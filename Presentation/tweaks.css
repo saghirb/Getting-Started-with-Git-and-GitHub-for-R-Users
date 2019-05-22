@@ -1,23 +1,34 @@
-.left-code {
-  color: #777;
-  width: 40%;
-  height: 92%;
+.left-plot {
+  width: 25%;
   float: left;
 }
 .right-plot {
-  width: 58%;
+  width: 68%;
   float: right;
   /* border-left: solid 1px #272822; */
-  padding-left: 1%;
+  padding-left:  1%;
+  padding-right: 5%;
 }
 
 .rlogo-logo-left-top {
 content: "";
     position: absolute;
-    top: 50px;
-    left:   60px;
+    top:     50px;
+    left:    60px;
     height: 120px;
-    width: 300px;
+    width:  300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/Rlogo.png);
+}
+
+.rlogo-logo-right-top {
+content: "";
+    position: absolute;
+    top:     50px;
+    right:   20px;
+    height: 120px;
+    width:  300px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(images/Rlogo.png);
@@ -26,10 +37,10 @@ content: "";
 .rlogo-logo-left-bottom {
 content: "";
     position: absolute;
-    bottom: 50px;
-    left:   60px;
+    bottom:  50px;
+    left:    60px;
     height: 120px;
-    width: 300px;
+    width:  300px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(images/Rlogo.png);
@@ -38,10 +49,10 @@ content: "";
 .git-icon-red-left-top {
 content: "";
     position: absolute;
-    top: 40px;
-    left:   60px;
+    top:     40px;
+    left:    60px;
     height: 160px;
-    width: 160px;
+    width:  160px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(images/Git-Icon-1788C.png);
@@ -184,10 +195,10 @@ content: "";
 .emoji-thinking-right-bottom {
 content: "";
     position: absolute;
-    bottom: 50px;
-    right:   -80px;
+    bottom:  50px;
+    right:   20px;
     height: 160px;
-    width:  300px;
+    width:  160px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(images/1f914-thinking.svg);
@@ -196,10 +207,10 @@ content: "";
 .emoji-crying-right-bottom {
 content: "";
     position: absolute;
-    bottom: 50px;
-    right:   -80px;
+    bottom:  50px;
+    right:   20px;
     height: 160px;
-    width:  300px;
+    width:  160px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(images/1f62d-crying.svg);
@@ -208,14 +219,36 @@ content: "";
 .emoji-exploding-head-right-bottom {
 content: "";
     position: absolute;
-    bottom: 50px;
-    right:   -80px;
+    bottom:  50px;
+    right:   20px;
     height: 160px;
-    width:  300px;
+    width:  160px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(images/1f92f-exploding-head.svg);
 }
 
 
+.emoji-warning-left-top {
+content: "";
+    position: absolute;
+    top:     50px;
+    left:    40px;
+    height: 160px;
+    width:  160px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/26a0-warning.svg);
+}
 
+.emoji-warning-right-top {
+content: "";
+    position: absolute;
+    top:     30px;
+    right:   20px;
+    height: 140px;
+    width:  140px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/26a0-warning.svg);
+}

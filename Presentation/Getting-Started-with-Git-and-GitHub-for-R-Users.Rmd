@@ -265,7 +265,7 @@ tdata <- fread(here("mydata.csv"))
 ---
 <div class="rlogo-logo-right-top"></div>
 
-# R Program -- Saving Versions
+# R Program - Saving Versions
 
 .pull-left[
 ## R Program
@@ -293,7 +293,7 @@ tdata <- fread(here("mydata.csv"))
 ---
 <div class="rlogo-logo-right-top"></div>
 
-# R Program -- Saving Versions
+# R Program - Saving Versions
 
 .pull-left[
 ## R Program
@@ -320,7 +320,7 @@ tdata <- fread(here("mydata.csv"))
 ---
 <div class="rlogo-logo-right-top"></div>
 
-# R Program -- Saving Versions
+# R Program - Saving Versions
 
 .pull-left[
 ## R Program
@@ -350,7 +350,7 @@ tdata <- fread(here("mydata.csv"))
 ---
 <div class="rlogo-logo-right-top"></div>
 
-# R Program -- Saving Versions
+# R Program - Saving Versions
 
 .pull-left[
 ## R Program
@@ -380,7 +380,7 @@ tdata <- fread(here("mydata.csv"))
 ---
 <div class="rlogo-logo-right-top"></div>
 
-# R Program -- Saving Versions
+# R Program - Saving Versions
 
 .pull-left[
 ## R Program
@@ -419,7 +419,7 @@ tdata <- fread(here("mydata.csv"))
 ---
 <div class="rlogo-logo-right-top"></div>
 
-# R Program -- Saving Versions
+# R Program - Saving Versions
 
 .pull-left[
 ## R Program
@@ -472,13 +472,13 @@ class: inverse, middle, center
 .pull-left[
 ## Things have changed.
 
-### Need to update the project.
+### Continue on the project.
 
-### Receive updated data.
+### Project needs updating.
+
+### Data was updated.
 
 ### Discovered an error.
-
-### Continue on the project.
 
 ### ...
 ]
@@ -490,7 +490,7 @@ class: inverse, middle, center
 + "thesis-data-02.R"
 + "thesis-data-03.R"
 + "thesis-data-04.R"
-+ "thesis-data-Final-Closed"
++ "thesis-data-Final-Final"
 + "thesis-data-Final-Last.R"
 + "thesis-data-Final-Sup-ME-minor.R" 
 + "thesis-data-Final-Sup-ME.R"
@@ -501,9 +501,24 @@ class: inverse, middle, center
 ]
 
 ---
+<div class="emoji-warning-right-top"></div>
+
+# Danger of Using File Date & Time
+
+<br> 
+
+## They are not reliable
+
+### What do they really represent? Modified? Openned?
+
+### Did you modify the wrong file before?
+
+### Was the true last file deleted?
+
+---
 <div class="emoji-exploding-head-right-bottom"></div>
 
-# Other Issues
+# Other Problems
 
 <br> 
 
@@ -589,8 +604,8 @@ class: top center
 .pull-right[
 ### Issues
 
-+ How many issues are open and closed?
-+ Click on one open and once closed issue.
++ How many issues are open? Closed?
++ Click on one open and one closed issue.
     - What is the difference?
     
 ### Forks
@@ -608,4 +623,144 @@ class: inverse, middle, center
 <div class="git-icon-white-left-top"></div> 
 
 # Git to GitHub
+
+---
+class: middle, center
+
+<div class="git-icon-red-left-top"></div> 
+<div class="GH-Octocat-right-top"></div> 
+
+# GitHub is built on git.
+
+# Let's start with using git in RStudio.
+
+# Then we will link back to GitHub.
+
+---
+class: inverse, middle, center
+
+<div class="git-icon-white-right-top"></div> 
+
+# Install git
+
+## https://git-scm.com/downloads
+
+## Accept default installation options
+
+---
+class: middle, center
+
+<div class="rlogo-logo-right-top"></div> 
+
+# IMPORTANT: R Setup
+
+.left-plot[
+```{r GlobalTools, echo=FALSE, out.width="90%"}
+knitr::include_graphics("images/ScreenShots/RStudio-Tools-Global-Options.png")
+```
+]
+
+.right-plot[
+```{r RDataSave, echo=FALSE, out.width="85%"}
+knitr::include_graphics("images/ScreenShots/RStudio-Data-Save-Options.png")
+```
+]
+
+---
+class: middle, center
+
+<div class="git-icon-red-right-top"></div> 
+
+# RStudio git Setup
+
+.left-plot[
+```{r GlobalTools2, echo=FALSE, out.width="90%"}
+knitr::include_graphics("images/ScreenShots/RStudio-New-Projects.PNG")
+```
+]
+
+.right-plot[
+```{r RStudioGit, echo=FALSE, out.width="85%"}
+knitr::include_graphics("images/ScreenShots/RStudio-Git-Setup.png")
+```
+]
+
+---
+class: inverse, middle, center
+
+<div class="git-icon-white-right-top"></div> 
+
+# We can use git with RStudio.
+
+<br>
+
+# Let's start a new project.
+
+---
+class: middle, center
+
+<div class="git-icon-red-right-top"></div> 
+
+# New RStudio Project (i)
+
+.left-plot[
+```{r NewProject1, echo=FALSE, out.width="90%"}
+knitr::include_graphics("images/ScreenShots/RStudio-Tools-Global-Options.png")
+```
+]
+
+.right-plot[
+```{r NewProject2, echo=FALSE, out.width="90%"}
+knitr::include_graphics("images/ScreenShots/RStudio-New-Project-Dir.png")
+```
+]
+
+---
+class: middle, center
+
+<div class="git-icon-red-right-top"></div> 
+
+# New RStudio Project (ii)
+
+```{r NewProject4, echo=FALSE, out.width="70%"}
+knitr::include_graphics("images/ScreenShots/RStudio-New-Project-Dir2.png")
+```
+
+---
+class: middle, center
+
+<div class="git-icon-red-right-top"></div> 
+
+# New RStudio Project (iii)
+
+```{r NewProject6, echo=FALSE, out.width="70%"}
+knitr::include_graphics("images/ScreenShots/RStudio-New-Project-with-Git.png")
+```
+
+---
+class: middle, center
+
+<div class="git-icon-red-right-top"></div> 
+
+# New RStudio Project (iv)
+
+```{r NewProject8, echo=FALSE, out.width="60%"}
+knitr::include_graphics("images/ScreenShots/RStudio-New-Project-Start.png")
+```
+
+---
+class: inverse, middle
+
+<div class="git-icon-white-right-top"></div> 
+
+# Working with git in RStudio
+
+## 1. Create an R file
+
+## 2. Save ("commit") it using git
+
+## 3. Modify the file and "commit" again 
+
+## 4. Save to your on-line GitHub account
+
 
