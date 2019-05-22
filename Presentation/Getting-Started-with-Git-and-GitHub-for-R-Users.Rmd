@@ -513,7 +513,7 @@ class: inverse, middle, center
 
 ### Did you modify the wrong file before?
 
-### Was the true last file deleted?
+### Was the true latest file deleted?
 
 ---
 <div class="emoji-exploding-head-right-bottom"></div>
@@ -620,6 +620,21 @@ class: top center
 class: inverse, middle, center
 
 <div class="GH-Mark-White-right-top"></div> 
+
+# Sign up to GitHub*
+
+<br>
+
+# https://github.com/
+
+<br><br><br>
+
+`*` If you do not agree with the terms and conditions let me know.
+
+---
+class: inverse, middle, center
+
+<div class="GH-Mark-White-right-top"></div> 
 <div class="git-icon-white-left-top"></div> 
 
 # Git to GitHub
@@ -632,7 +647,7 @@ class: middle, center
 
 # GitHub is built on git.
 
-# Let's start with using git in RStudio.
+# Let's start by using git in RStudio.
 
 # Then we will link back to GitHub.
 
@@ -656,13 +671,13 @@ class: middle, center
 
 .left-plot[
 ```{r GlobalTools, echo=FALSE, out.width="90%"}
-knitr::include_graphics("images/ScreenShots/RStudio-Tools-Global-Options.png")
+knitr::include_graphics("images/ScreenShots/01-RStudio-Tools-Global-Options.png")
 ```
 ]
 
 .right-plot[
 ```{r RDataSave, echo=FALSE, out.width="85%"}
-knitr::include_graphics("images/ScreenShots/RStudio-Data-Save-Options.png")
+knitr::include_graphics("images/ScreenShots/02-RStudio-Data-Save-Options.png")
 ```
 ]
 
@@ -675,13 +690,42 @@ class: middle, center
 
 .left-plot[
 ```{r GlobalTools2, echo=FALSE, out.width="90%"}
-knitr::include_graphics("images/ScreenShots/RStudio-New-Projects.PNG")
+knitr::include_graphics("images/ScreenShots/03-RStudio-New-Projects.png")
 ```
 ]
 
 .right-plot[
 ```{r RStudioGit, echo=FALSE, out.width="85%"}
-knitr::include_graphics("images/ScreenShots/RStudio-Git-Setup.png")
+knitr::include_graphics("images/ScreenShots/04-RStudio-Git-Setup.png")
+```
+]
+
+---
+class: middle
+
+<div class="git-icon-red-right-top"></div> 
+
+## git User Settings
+
+.left-plot[
+```{r RStudioTerm, echo=FALSE, out.width="90%"}
+knitr::include_graphics("images/ScreenShots/09-RStudio-Terminal.png")
+```
+]
+
+.right-plot[
+
+### Important to connect with GitHub
+
+### Same email as for GitHub
+
+```
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+```
+### Check Settings
+```
+git config --global
 ```
 ]
 
@@ -690,7 +734,7 @@ class: inverse, middle, center
 
 <div class="git-icon-white-right-top"></div> 
 
-# We can use git with RStudio.
+# We are ready to use git with RStudio.
 
 <br>
 
@@ -705,13 +749,13 @@ class: middle, center
 
 .left-plot[
 ```{r NewProject1, echo=FALSE, out.width="90%"}
-knitr::include_graphics("images/ScreenShots/RStudio-Tools-Global-Options.png")
+knitr::include_graphics("images/ScreenShots/01-RStudio-Tools-Global-Options.png")
 ```
 ]
 
 .right-plot[
 ```{r NewProject2, echo=FALSE, out.width="90%"}
-knitr::include_graphics("images/ScreenShots/RStudio-New-Project-Dir.png")
+knitr::include_graphics("images/ScreenShots/05-RStudio-New-Project-Dir.png")
 ```
 ]
 
@@ -723,7 +767,7 @@ class: middle, center
 # New RStudio Project (ii)
 
 ```{r NewProject4, echo=FALSE, out.width="70%"}
-knitr::include_graphics("images/ScreenShots/RStudio-New-Project-Dir2.png")
+knitr::include_graphics("images/ScreenShots/06-RStudio-New-Project-Dir2.png")
 ```
 
 ---
@@ -734,7 +778,7 @@ class: middle, center
 # New RStudio Project (iii)
 
 ```{r NewProject6, echo=FALSE, out.width="70%"}
-knitr::include_graphics("images/ScreenShots/RStudio-New-Project-with-Git.png")
+knitr::include_graphics("images/ScreenShots/07-RStudio-New-Project-with-Git.png")
 ```
 
 ---
@@ -745,7 +789,7 @@ class: middle, center
 # New RStudio Project (iv)
 
 ```{r NewProject8, echo=FALSE, out.width="60%"}
-knitr::include_graphics("images/ScreenShots/RStudio-New-Project-Start.png")
+knitr::include_graphics("images/ScreenShots/08-RStudio-New-Project-Start.png")
 ```
 
 ---
