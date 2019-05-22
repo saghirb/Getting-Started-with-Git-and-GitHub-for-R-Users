@@ -112,7 +112,7 @@ class: inverse, middle, center
 # Developing an R Program
 
 .pull-left[
-## R Program
+### R Program
 ```
 # Thesis Project Data Cleaning
 library(data.table)
@@ -127,7 +127,7 @@ tdata <- fread(here("mydata.csv"))
 --
 
 .pull-right[
-## Processing R Program
+### Processing R Program
 
 1. Save as **"thesis-data.R"**
 
@@ -139,7 +139,7 @@ tdata <- fread(here("mydata.csv"))
 # Developing an R Program
 
 .pull-left[
-## R Program
+### R Program
 ```{r eval=FALSE, echo=TRUE}
 # Thesis Project Data Cleaning
 library(data.table)
@@ -154,7 +154,7 @@ tdata <- fread(here("mydata.csv"))
 ]
 
 .pull-right[
-## Processing R Program
+### Processing R Program
 
 1. Save as "thesis-data.R" 
 2. Overwrite **"thesis-data.R"**
@@ -166,7 +166,7 @@ tdata <- fread(here("mydata.csv"))
 # Developing an R Program
 
 .pull-left[
-## R Program
+### R Program
 ```{r eval=FALSE, echo=TRUE}
 # Thesis Project Data Cleaning
 library(data.table)
@@ -183,7 +183,7 @@ tdata <- fread(here("mydata.csv"))
 ]
 
 .pull-right[
-## Processing R Program
+### Processing R Program
 
 1. Save as "thesis-data.R" 
 2. Overwrite "thesis-data.R" 
@@ -196,7 +196,7 @@ tdata <- fread(here("mydata.csv"))
 # Developing an R Program
 
 .pull-left[
-## R Program
+### R Program
 ```{r eval=FALSE, echo=TRUE}
 # Thesis Project Data Cleaning
 library(data.table)
@@ -213,7 +213,7 @@ tdata <- fread(here("mydata.csv"))
 ]
 
 .pull-right[
-## Processing R Program
+### Processing R Program
 
 1. Save as "thesis-data.R" 
 2. Overwrite "thesis-data.R" 
@@ -228,7 +228,7 @@ tdata <- fread(here("mydata.csv"))
 # Developing an R Program
 
 .pull-left[
-## R Program
+### R Program
 ```{r eval=FALSE, echo=TRUE}
 # Thesis Project Data Cleaning
 library(data.table)
@@ -250,7 +250,7 @@ tdata <- fread(here("mydata.csv"))
 ]
 
 .pull-right[
-## Processing R Program
+### Processing R Program
 
 1. Save as "thesis-data.R" 
 2. Overwrite "thesis-data.R" 
@@ -268,7 +268,7 @@ tdata <- fread(here("mydata.csv"))
 # R Program - Saving Versions
 
 .pull-left[
-## R Program
+### R Program
 ```{r eval=FALSE, echo=TRUE}
 # Thesis Project Data Cleaning
 library(data.table)
@@ -284,7 +284,7 @@ tdata <- fread(here("mydata.csv"))
 --
 
 .pull-right[
-## Processing R Program
+### Processing R Program
 
 1. Save as **"thesis-data-01.R"**
 
@@ -296,7 +296,7 @@ tdata <- fread(here("mydata.csv"))
 # R Program - Saving Versions
 
 .pull-left[
-## R Program
+### R Program
 ```{r eval=FALSE, echo=TRUE}
 # Thesis Project Data Cleaning
 library(data.table)
@@ -311,7 +311,7 @@ tdata <- fread(here("mydata.csv"))
 ]
 
 .pull-right[
-## Processing R Program
+### Processing R Program
 
 1. Save as "thesis-data-01.R" 
 2. Save as **"thesis-data-02.R"**
@@ -323,7 +323,7 @@ tdata <- fread(here("mydata.csv"))
 # R Program - Saving Versions
 
 .pull-left[
-## R Program
+### R Program
 ```{r eval=FALSE, echo=TRUE}
 # Thesis Project Data Cleaning
 library(data.table)
@@ -340,7 +340,7 @@ tdata <- fread(here("mydata.csv"))
 ]
 
 .pull-right[
-## Processing R Program
+### Processing R Program
 
 1. Save as "thesis-data-01.R" 
 2. Save as "thesis-data-02.R" 
@@ -353,7 +353,7 @@ tdata <- fread(here("mydata.csv"))
 # R Program - Saving Versions
 
 .pull-left[
-## R Program
+### R Program
 ```{r eval=FALSE, echo=TRUE}
 # Thesis Project Data Cleaning
 library(data.table)
@@ -370,7 +370,7 @@ tdata <- fread(here("mydata.csv"))
 ]
 
 .pull-right[
-## Processing R Program
+### Processing R Program
 1. Save as "thesis-data-01.R" 
 2. Save as "thesis-data-02.R" 
 3. Save as "thesis-data-03.R" 
@@ -383,7 +383,7 @@ tdata <- fread(here("mydata.csv"))
 # R Program - Saving Versions
 
 .pull-left[
-## R Program
+### R Program
 ```{r eval=FALSE, echo=TRUE}
 # Thesis Project Data Cleaning
 library(data.table)
@@ -406,7 +406,7 @@ tdata <- fread(here("mydata.csv"))
 ]
 
 .pull-right[
-## Processing R Program
+### Processing R Program
 
 1. Save as "thesis-data-01.R" 
 2. Save as "thesis-data-02.R" 
@@ -422,7 +422,7 @@ tdata <- fread(here("mydata.csv"))
 # R Program - Saving Versions
 
 .pull-left[
-## R Program
+### R Program
 ```{r eval=FALSE, echo=TRUE}
 # Thesis Project Data Cleaning
 library(data.table)
@@ -445,7 +445,7 @@ tdata <- fread(here("mydata.csv"))
 ]
 
 .pull-right[
-## Processing R Program
+### Processing R Program
 
 1. Save as "thesis-data-01.R" 
 2. Save as "thesis-data-02.R" 
@@ -470,34 +470,32 @@ class: inverse, middle, center
 # The FUTURE YOU
 
 .pull-left[
-## Things have changed.
-
-### Continue on the project.
+### Continues on the project.
 
 ### Project needs updating.
 
-### Data was updated.
+### Receive updated data.
 
-### Discovered an error.
+### Discover an error.
 
 ### ...
 ]
 
 .pull-right[
-## Continue from where?
+### Continue from where?
 
-+ "thesis-data-01.R"
-+ "thesis-data-02.R"
-+ "thesis-data-03.R"
-+ "thesis-data-04.R"
-+ "thesis-data-Final-Final"
-+ "thesis-data-Final-Last.R"
-+ "thesis-data-Final-Sup-ME-minor.R" 
-+ "thesis-data-Final-Sup-ME.R"
-+ "thesis-data-Final-Sup.R"
-+ "thesis-data-Final.R"
-+ "thesis-data-Final2.R"
-...
++ `thesis-data-01.R`
++ `thesis-data-02.R`
++ `thesis-data-03.R`
++ `thesis-data-04.R`
++ `thesis-data-Final-Final.R`
++ `thesis-data-Final-Last.R`
++ `thesis-data-Final-Sup-ME-minor.R`
++ `thesis-data-Final-Sup-ME.R`
++ `thesis-data-Final-Sup.R`
++ `thesis-data-Final.R`
++ `thesis-data-Final2.R`
++ `...`
 ]
 
 ---
@@ -637,7 +635,7 @@ class: inverse, middle, center
 <div class="GH-Mark-White-right-top"></div> 
 <div class="git-icon-white-left-top"></div> 
 
-# Git to GitHub
+# Git, GitHub & RStudio
 
 ---
 class: middle, center
@@ -645,9 +643,9 @@ class: middle, center
 <div class="git-icon-red-left-top"></div> 
 <div class="GH-Octocat-right-top"></div> 
 
-# GitHub is built on git.
+# GitHub is built on Git.
 
-# Let's start by using git in RStudio.
+# Let's start by using Git in RStudio.
 
 # Then we will link back to GitHub.
 
@@ -686,7 +684,7 @@ class: middle, center
 
 <div class="git-icon-red-right-top"></div> 
 
-# RStudio git Setup
+# RStudio Git Setup
 
 .left-plot[
 ```{r GlobalTools2, echo=FALSE, out.width="90%"}
@@ -701,11 +699,9 @@ knitr::include_graphics("images/ScreenShots/04-RStudio-Git-Setup.png")
 ]
 
 ---
-class: middle
-
 <div class="git-icon-red-right-top"></div> 
 
-## git User Settings
+# Git User Settings - Just Do Once
 
 .left-plot[
 ```{r RStudioTerm, echo=FALSE, out.width="90%"}
@@ -714,15 +710,14 @@ knitr::include_graphics("images/ScreenShots/09-RStudio-Terminal.png")
 ]
 
 .right-plot[
-
-### Important to connect with GitHub
-
-### Same email as for GitHub
+### Switch to the terminal tab & type:
 
 ```
 git config --global user.name "Your Name"
 git config --global user.email "email@example.com"
 ```
+#### Note: Use the same email address as for GitHub
+
 ### Check Settings
 ```
 git config --global
@@ -734,7 +729,7 @@ class: inverse, middle, center
 
 <div class="git-icon-white-right-top"></div> 
 
-# We are ready to use git with RStudio.
+# We are ready to use Git with RStudio.
 
 <br>
 
@@ -797,7 +792,7 @@ class: inverse, middle
 
 <div class="git-icon-white-right-top"></div> 
 
-# Working with git in RStudio
+# Working with Git in RStudio
 
 ## 1. Create an R file
 
@@ -806,5 +801,181 @@ class: inverse, middle
 ## 3. Modify the file and "commit" again 
 
 ## 4. Save to your on-line GitHub account
+
+---
+class: middle, center
+
+<div class="git-icon-red-right-top"></div> 
+
+# Title
+
+```{r 10-New-Rmd-Doc, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/10-New-Rmd-Doc.png")
+```
+
+---
+class: middle, center
+
+<div class="git-icon-red-right-top"></div> 
+
+# Title
+
+```{r 11-New-Rmd-Setup, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/11-New-Rmd-Setup.png")
+```
+
+---
+class: middle, center
+
+<div class="git-icon-red-right-top"></div> 
+
+# Title
+
+```{r 12-New-Rmd-Open, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/12-New-Rmd-Open.png")
+```
+
+---
+class: middle, center
+
+<div class="git-icon-red-right-top"></div> 
+
+# Title
+
+```{r 13-New-Rmd-Save, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/13-New-Rmd-Save.png")
+```
+
+---
+class: middle, center
+
+<div class="git-icon-red-right-top"></div> 
+
+# Title
+
+```{r 14-New-Rmd-Screen, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/14-New-Rmd-Screen.png")
+```
+
+---
+class: middle, center
+
+<div class="git-icon-red-right-top"></div> 
+
+# Title
+
+```{r 15-Untracked-files, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/15-Untracked-files.png")
+```
+
+---
+class: middle, center
+
+<div class="git-icon-red-right-top"></div> 
+
+# Title
+
+```{r 16-Commit-Button, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/16-Commit-Button.png")
+```
+
+---
+class: middle, center
+
+<div class="git-icon-red-right-top"></div> 
+
+# Title
+
+```{r 17-First-Commit, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/17-First-Commit.png")
+```
+
+---
+class: middle, center
+
+<div class="git-icon-red-right-top"></div> 
+
+# Title
+
+```{r 18-Commited, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/18-Commited.png")
+```
+
+---
+class: middle, center
+
+<div class="git-icon-red-right-top"></div> 
+
+# Title
+
+```{r 19-git-panel-empty, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/19-git-panel-empty.png")
+```
+
+---
+class: middle, center
+
+<div class="git-icon-red-right-top"></div> 
+
+# Title
+
+```{r 20-Modify-Rmd, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/20-Modify-Rmd.png")
+```
+
+---
+class: middle, center
+
+<div class="git-icon-red-right-top"></div> 
+
+# Title
+
+```{r 21-Knitted-Rmd-HTML, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/21-Knitted-Rmd-HTML.png")
+```
+
+---
+class: middle, center
+
+<div class="git-icon-red-right-top"></div> 
+
+# Title
+
+```{r 22-New-Files-to-commit, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/22-New-Files-to-commit.png")
+```
+
+---
+class: middle, center
+
+<div class="git-icon-red-right-top"></div> 
+
+# Title
+
+```{r 23-Second-Commit, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/23-Second-Commit.png")
+```
+
+---
+class: middle, center
+
+<div class="git-icon-red-right-top"></div> 
+
+# Title
+
+```{r 24-Second-Complete, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/24-Second-Complete.png")
+```
+
+---
+class: middle, center
+
+<div class="git-icon-red-right-top"></div> 
+
+# Title
+
+```{r 25-Git-History, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/25-Git-History.png")
+```
 
 

@@ -1,3 +1,3 @@
-# Getting Start with Git and GitHub for R Users - Saghir Bashir
+# Getting Start with Git and GitHub for R Users
 
 ## DRAFT - Work ongoing
