@@ -1188,12 +1188,39 @@ class: inverse
 
 <div class="GH-Mark-White-right-top"></div> 
 
-# Final Exercise
+# Basic Collaboration - Push Requests
 
 ---
 class: inverse
 
-<div class="GH-Mark-White-right-top"></div> 
+<div class="git-icon-white-right-top"></div> 
+<div class="GH-Mark-White-right-bottom"></div> 
 
 # Summary
+
+## Git, GitHub and RStudio
+
+### &nbsp;&nbsp;&nbsp; - Great combination for tracking your work
+
+### &nbsp;&nbsp;&nbsp; - Revert back to past work
+
+### &nbsp;&nbsp;&nbsp; - Collaborate with others
+
+## Git/GitHub can be frustrating at times
+
+### &nbsp;&nbsp;&nbsp; - The rewards and benefits are far greater!
+
+
+---
+class: inverse, center, middle
+
+## This work is licensed under the
+
+## Creative Commons Attribution-NonCommercial 4.0 International License.
+
+## To view a copy of this license, visit
+
+## http://creativecommons.org/licenses/by-nc/4.0/
+
+
 
