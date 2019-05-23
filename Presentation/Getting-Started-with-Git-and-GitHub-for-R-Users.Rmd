@@ -549,41 +549,36 @@ class: inverse, middle, center
 ## Track issues 
 
 ---
-class: inverse, middle, center
+class: inverse, middle
 
+<div class="GH-Mark-White-left-top"></div> 
 <div class="GH-Mark-White-right-top"></div> 
 
-# Discover GitHub
+# Exercise
 
----
-class: middle
-
-<div class="git-icon-red-right-top"></div> 
-<div class="GH-Octocat-right-bottom"></div> 
-
-# Objectives
-
-## Learn GitHub through observation
+## Learn GitHub through observation.
 
 ## What do you observe? 
 
 ## What do you understand?
 
-## Your understanding - not about being right
+## It is not about being right.
 
 ---
-class: top center
+class: center
 
 <div class="GH-Octocat-right-top"></div> 
 
 ### https://github.com/saghirb/Getting-Started-in-R
 
-![https://github.com/saghirb/Getting-Started-in-R](images/saghirb-GSiR-GitHub.jpg)
+```{r GSiR-GitHub, echo=FALSE, out.width="90%"}
+knitr::include_graphics("images/saghirb-GSiR-GitHub.jpg")
+```
 
 ---
 <div class="GH-Octocat-right-top"></div> 
 
-# Discover a GitHub Repository
+# GitHub Questions
 
 .pull-left[
 ### General
@@ -994,5 +989,30 @@ class: inverse, center
 ```{r 25-Git-History, echo=FALSE, out.width="80%"}
 knitr::include_graphics("images/ScreenShots/25-Git-History.png")
 ```
+
+---
+class: inverse, center, middle
+
+<div class="GH-Mark-White-right-top"></div> 
+
+# Synchronsing with GitHub
+
+
+---
+class: inverse
+
+<div class="GH-Mark-White-right-top"></div> 
+
+# Synchronsing with GitHub
+
+<br>
+
+### 1. Create new GitHub repository 
+
+### &nbsp;&nbsp;&nbsp; - Must be the same name as your RStudio project
+
+### 2. Link the local version of your project to your GitHub repository
+
+### 3. Push (upload) your work to your GitHub repository
 
 

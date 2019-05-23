@@ -37,3 +37,5 @@ RStudioTerm	::
 24-Second-Complete	::
 25-Git-History	::
 22-New-Files-to-commit	::
+setup	::	$	$<-	if	library	options
+GSiR-GitHub	::
