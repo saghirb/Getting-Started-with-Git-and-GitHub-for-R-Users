@@ -398,6 +398,30 @@ content: "";
     background-image: url(images/1f973-partying.svg);
 }
 
+.emoji-partying-left-top-S {
+content: "";
+    position: absolute;
+    top:     40px;
+    left:    60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/1f973-partying.svg);
+}
+
+.emoji-partying-left-top-M {
+content: "";
+    position: absolute;
+    top:     40px;
+    left:    60px;
+    height: 160px;
+    width:  160px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/1f973-partying.svg);
+}
+
 .emoji-partying-left-bottom-S {
 content: "";
     position: absolute;

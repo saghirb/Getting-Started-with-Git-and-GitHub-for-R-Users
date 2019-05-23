@@ -507,7 +507,7 @@ class: inverse, middle, center
 
 ## They are not reliable
 
-### What do they really represent? Modified? Openned?
+### What do they really represent? Modified? Opened?
 
 ### Did you modify the wrong file before?
 
@@ -651,18 +651,18 @@ class: inverse, middle, center
 
 <div class="git-icon-white-right-top"></div> 
 
-# Install git
+# Install git from:
 
 ## https://git-scm.com/downloads
 
-## Accept default installation options
+## Accept default installation options.
 
 ---
 class: middle, center
 
 <div class="rlogo-logo-right-top"></div> 
 
-# IMPORTANT: R Setup
+# IMPORTANT: R Set-up
 
 .left-plot[
 ```{r GlobalTools, echo=FALSE, out.width="90%"}
@@ -681,7 +681,7 @@ class: middle, center
 
 <div class="git-icon-red-right-top"></div> 
 
-# RStudio Git Setup
+# RStudio Git Set-up
 
 .left-plot[
 ```{r GlobalTools2, echo=FALSE, out.width="90%"}
@@ -698,7 +698,7 @@ knitr::include_graphics("images/ScreenShots/04-RStudio-Git-Setup.png")
 ---
 <div class="git-icon-red-right-top"></div> 
 
-# Git User Settings - Just Do Once
+# Git User Settings - Only Do Once
 
 .left-plot[
 ```{r RStudioTerm, echo=FALSE, out.width="90%"}
@@ -791,13 +791,13 @@ class: inverse, middle
 
 # Working with Git in RStudio
 
-## 1. Create an R file
+## 1. Create an R file.
 
-## 2. Save ("commit") it using git
+## 2. Save ("commit") it using git.
 
-## 3. Modify the file and "commit" again 
+## 3. Modify the file and "commit" again. 
 
-## 4. Save to your on-line GitHub account
+## 4. Save to your on-line GitHub account.
 
 ---
 class: middle, center
@@ -875,24 +875,11 @@ knitr::include_graphics("images/ScreenShots/18-Commited.png")
 ```
 
 ---
-class: inverse, middle, center
-
-<div class="git-icon-white-right-top"></div> 
-
-# Commit
-
-<br>
-
-# Your files are now a part of the 
-
-# Git history of this project.
-
----
 class: center, middle
 
 <div class="git-icon-red-right-top"></div> 
 
-# Git Panel Should be Clear
+# Git Panel Should be Empty
 
 ```{r 19-git-panel-empty, echo=FALSE, out.width="70%"}
 knitr::include_graphics("images/ScreenShots/19-git-panel-empty.png")
@@ -903,11 +890,25 @@ class: inverse, middle, center
 
 <div class="git-icon-white-right-top"></div> 
 
-# Let's Modify Learning-about-GitHub.Rmd
+# Commit
 
 <br>
 
-# Then commit the changes... 
+# Your files are now a part of the 
+
+# git history of this project.
+
+
+---
+class: inverse, middle, center
+
+<div class="git-icon-white-right-top"></div> 
+
+# Modify `Learning-about-GitHub.Rmd`
+
+<br>
+
+# Then commit the changes. 
 
 ---
 class: inverse, middle, center
@@ -932,7 +933,7 @@ class: middle, center
 
 <div class="git-icon-red-right-top"></div> 
 
-# Rmd Modified & Files Untracked
+# Rmd Modified & Untracked Files
 
 ```{r 22-New-Files-to-commit, echo=FALSE, out.width="80%"}
 knitr::include_graphics("images/ScreenShots/22-New-Files-to-commit.png")
@@ -943,7 +944,7 @@ class: middle, center
 
 <div class="git-icon-red-right-top"></div> 
 
-# Let's Commit Again
+# Performing Another Commit
 
 ```{r 23-Second-Commit, echo=FALSE, out.width="60%"}
 knitr::include_graphics("images/ScreenShots/23-Second-Commit.png")
@@ -995,7 +996,7 @@ class: inverse, center, middle
 
 <div class="GH-Mark-White-right-top"></div> 
 
-# Synchronsing with GitHub
+# Synchronising with GitHub
 
 
 ---
@@ -1003,17 +1004,17 @@ class: inverse
 
 <div class="GH-Mark-White-right-top"></div> 
 
-# Synchronsing with GitHub
+# Synchronising with GitHub
 
 <br>
 
-### 1. Create new GitHub repository 
+### 1. Create new GitHub repository. 
 
-### &nbsp;&nbsp;&nbsp; - Must be the same name as your RStudio project
+### &nbsp;&nbsp;&nbsp; - Must be the same name as your RStudio project.
 
-### 2. Link the local version of your project to your GitHub repository
+### 2. Link the local version of your project to your GitHub repository.
 
-### 3. Push (upload) your work to your GitHub repository
+### 3. Push (upload) your work to your GitHub repository.
 
 ---
 class: center
@@ -1102,7 +1103,7 @@ knitr::include_graphics("images/ScreenShots/48-Pushed-to-GitHub.png")
 class: center
 
 <div class="GH-Octocat-right-top"></div> 
-<div class="emoji-partying-left-bottom-S"></div>
+<div class="emoji-partying-left-top-S"></div>
 <div class="emoji-partying-right-bottom-S"></div>
 
 # Check GitHub Repository
@@ -1120,17 +1121,17 @@ class: inverse
 
 <br>
 
-### 1. Create a `README.md` file
+### 1. Create a `README.md` file.
 
-### &nbsp;&nbsp;&nbsp; - See next slide for contents
+### &nbsp;&nbsp;&nbsp; - See next slide for contents.
 
-### 2. Modify `Learning-about-GitHub.Rmd`
+### 2. Modify `Learning-about-GitHub.Rmd`.
 
-### &nbsp;&nbsp;&nbsp; - See following slide 
+### &nbsp;&nbsp;&nbsp; - See following slide.
 
-### 3. Commit changes locally
+### 3. Commit changes locally.
 
-### 4. Push to GitHub from RStudio
+### 4. Push to GitHub from RStudio.
 
 ---
 <div class="rlogo-logo-right-top"></div> 
@@ -1182,13 +1183,46 @@ ChickWeight %>%
   ylab("Weight (grams)")
 ```
 
+### Knit the file to HTML
+
+---
+<div class="rlogo-logo-right-top"></div> 
+<div class="git-icon-red-right-bottom"></div> 
+
+# Commit & Push
+
+<br>
+
+### Commit changes using git from RStudio.
+
+### &nbsp;&nbsp;&nbsp; - Don't forget to write a commit message.
+
+### Synchronise to GitHub by clicking on the "Push" button.
+
+### Check your repository on GitHub
+
+### &nbsp;&nbsp;&nbsp; - Check the Commit history
+
 
 ---
 class: inverse
-
 <div class="GH-Mark-White-right-top"></div> 
 
-# Basic Collaboration - Push Requests
+# Creating a Pull Request
+
+### 1. From you GitHub account fork:
+
+### &nbsp;&nbsp;&nbsp; - https://github.com/saghirb/Comments-about-R
+
+### 2. Edit the file `20190524-Comments.Rmd`.
+
+### &nbsp;&nbsp;&nbsp; - Add your Name and three comments.
+
+### 3. Create a "New Pull Request" with comments.
+
+### &nbsp;&nbsp;&nbsp; - Then submit it by clicking "Create Pull Request."
+
+### 4. Then the owner (saghirb) will receive it.
 
 ---
 class: inverse
@@ -1216,7 +1250,7 @@ class: inverse, center, middle
 
 ## This work is licensed under the
 
-## Creative Commons Attribution-NonCommercial 4.0 International License.
+## Creative Commons Attribution-Non Commercial 4.0 International License.
 
 ## To view a copy of this license, visit
 
