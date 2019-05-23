@@ -13,10 +13,10 @@
 .rlogo-logo-left-top {
 content: "";
     position: absolute;
-    top:     50px;
+    top:     40px;
     left:    60px;
     height: 120px;
-    width:  300px;
+    width:  120px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(images/Rlogo.png);
@@ -25,10 +25,10 @@ content: "";
 .rlogo-logo-right-top {
 content: "";
     position: absolute;
-    top:     50px;
-    right:   20px;
+    top:     40px;
+    right:   60px;
     height: 120px;
-    width:  300px;
+    width:  120px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(images/Rlogo.png);
@@ -37,10 +37,22 @@ content: "";
 .rlogo-logo-left-bottom {
 content: "";
     position: absolute;
-    bottom:  50px;
+    bottom:  40px;
     left:    60px;
     height: 120px;
-    width:  300px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/Rlogo.png);
+}
+
+.rlogo-logo-right-bottom {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    right:    60px;
+    height: 120px;
+    width:  120px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(images/Rlogo.png);
@@ -51,8 +63,8 @@ content: "";
     position: absolute;
     top:     40px;
     left:    60px;
-    height: 160px;
-    width:  160px;
+    height: 120px;
+    width:  120px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(images/Git-Icon-1788C.png);
@@ -61,10 +73,10 @@ content: "";
 .git-icon-red-right-top {
 content: "";
     position: absolute;
-    top: 40px;
+    top:     40px;
     right:   40px;
-    height: 160px;
-    width:  160px;
+    height: 120px;
+    width:  120px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(images/Git-Icon-1788C.png);
@@ -73,10 +85,10 @@ content: "";
 .git-icon-red-left-bottom {
 content: "";
     position: absolute;
-    bottom: 40px;
-    left:   60px;
-    height: 160px;
-    width: 160px;
+    bottom:  40px;
+    left:    60px;
+    height: 120px;
+    width:  120px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(images/Git-Icon-1788C.png);
@@ -85,10 +97,22 @@ content: "";
 .git-icon-white-left-top {
 content: "";
     position: absolute;
-    top: 40px;
-    left:   60px;
-    height: 160px;
-    width: 480px;
+    top:     40px;
+    left:    60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/Git-Icon-White.png);
+}
+
+.git-icon-white-right-top {
+content: "";
+    position: absolute;
+    top:     40px;
+    right:    60px;
+    height: 120px;
+    width:  120px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(images/Git-Icon-White.png);
@@ -97,22 +121,46 @@ content: "";
 .git-icon-white-left-bottom {
 content: "";
     position: absolute;
-    bottom: 40px;
-    left:   60px;
-    height: 160px;
-    width: 480px;
+    bottom:  40px;
+    left:    60px;
+    height: 120px;
+    width:  120px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(images/Git-Icon-White.png);
 }
 
+.GH-Octocat-left-top {
+content: "";
+    position: absolute;
+    top:     40px;
+    left:    60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/Octocat.jpg);
+}
+
 .GH-Octocat-right-top {
 content: "";
     position: absolute;
-    top: 50px;
-    right:   -80px;
-    height: 160px;
-    width:  300px;
+    top:     40px;
+    right:   60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/Octocat.jpg);
+}
+
+.GH-Octocat-left-bottom {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    left:    60px;
+    height: 120px;
+    width:  120px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(images/Octocat.jpg);
@@ -121,10 +169,10 @@ content: "";
 .GH-Octocat-right-bottom {
 content: "";
     position: absolute;
-    bottom: 50px;
-    right:   -80px;
-    height: 160px;
-    width:  300px;
+    bottom:  40px;
+    right:   60px;
+    height: 120px;
+    width:  120px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(images/Octocat.jpg);
@@ -133,10 +181,10 @@ content: "";
 .GH-Mark-White-right-bottom {
 content: "";
     position: absolute;
-    bottom: 50px;
-    right:   -80px;
-    height: 160px;
-    width:  300px;
+    bottom:  40px;
+    right:   60px;
+    height: 120px;
+    width:  120px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(images/GitHub-Mark-Light-120px-plus.png);
@@ -145,58 +193,35 @@ content: "";
 .GH-Mark-White-right-top {
 content: "";
     position: absolute;
-    top: 50px;
-    right:   -80px;
-    height: 160px;
-    width:  300px;
+    top:     40px;
+    right:   60px;
+    height: 120px;
+    width:  120px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(images/GitHub-Mark-Light-120px-plus.png);
 }
 
-.rlogo-logo-right-top {
-content: "";
-    position: absolute;
-    top: 40px;
-    right:   0px;
-    height: 80px;
-    width: 240px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url(images/Rlogo.png);
-}
-
-.knitr-hex-right-top {
-content: "";
-    position: absolute;
-    top: 40px;
-    right:   0px;
-    height: 80px;
-    width: 240px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url(images/knitr.png);
-}
-
-.xaringan-hex-right-top {
-content: "";
-    position: absolute;
-    top: 40px;
-    right:   0px;
-    height: 80px;
-    width: 240px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url(images/xaringan-hex.png);
-}
 
 /* emojis: SVGs https://github.com/twitter/twemoji/tree/gh-pages/2/svg/ */
 
-.emoji-thinking-right-bottom {
+.emoji-thinking-right-bottom-S {
 content: "";
     position: absolute;
-    bottom:  50px;
-    right:   20px;
+    bottom:  40px;
+    right:   60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/1f914-thinking.svg);
+}
+
+.emoji-thinking-right-bottom-M {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    right:   60px;
     height: 160px;
     width:  160px;
     background-repeat: no-repeat;
@@ -204,11 +229,23 @@ content: "";
     background-image: url(images/1f914-thinking.svg);
 }
 
-.emoji-crying-right-bottom {
+.emoji-crying-right-bottom-S {
 content: "";
     position: absolute;
-    bottom:  50px;
-    right:   20px;
+    bottom:  40px;
+    right:   60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/1f62d-crying.svg);
+}
+
+.emoji-crying-right-bottom-L {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    right:   60px;
     height: 160px;
     width:  160px;
     background-repeat: no-repeat;
@@ -216,11 +253,23 @@ content: "";
     background-image: url(images/1f62d-crying.svg);
 }
 
-.emoji-exploding-head-right-bottom {
+.emoji-exploding-head-right-bottom-S {
 content: "";
     position: absolute;
-    bottom:  50px;
-    right:   20px;
+    bottom:  40px;
+    right:   60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/1f92f-exploding-head.svg);
+}
+
+.emoji-exploding-head-right-bottom-L {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    right:   60px;
     height: 160px;
     width:  160px;
     background-repeat: no-repeat;
@@ -229,11 +278,23 @@ content: "";
 }
 
 
-.emoji-warning-left-top {
+.emoji-warning-left-top-S {
 content: "";
     position: absolute;
-    top:     50px;
-    left:    40px;
+    top:     40px;
+    left:    60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/26a0-warning.svg);
+}
+
+.emoji-warning-left-top-M {
+content: "";
+    position: absolute;
+    top:     40px;
+    left:    60px;
     height: 160px;
     width:  160px;
     background-repeat: no-repeat;
@@ -241,13 +302,25 @@ content: "";
     background-image: url(images/26a0-warning.svg);
 }
 
-.emoji-warning-right-top {
+.emoji-warning-right-top-S {
 content: "";
     position: absolute;
-    top:     30px;
-    right:   20px;
-    height: 140px;
-    width:  140px;
+    top:     40px;
+    right:   60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/26a0-warning.svg);
+}
+
+.emoji-warning-right-top-M {
+content: "";
+    position: absolute;
+    top:     40px;
+    right:   60px;
+    height: 160px;
+    width:  160px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(images/26a0-warning.svg);

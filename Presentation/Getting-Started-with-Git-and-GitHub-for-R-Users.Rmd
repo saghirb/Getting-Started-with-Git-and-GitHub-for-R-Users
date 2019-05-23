@@ -223,7 +223,7 @@ tdata <- fread(here("mydata.csv"))
 
 ---
 <div class="rlogo-logo-right-top"></div>
-<div class="emoji-crying-right-bottom"></div>
+<div class="emoji-crying-right-bottom-M"></div>
 
 # Developing an R Program
 
@@ -465,7 +465,7 @@ class: inverse, middle, center
 
 ---
 <div class="rlogo-logo-right-top"></div>
-<div class="emoji-thinking-right-bottom"></div>
+<div class="emoji-thinking-right-bottom-M"></div>
 
 # The FUTURE YOU
 
@@ -499,7 +499,7 @@ class: inverse, middle, center
 ]
 
 ---
-<div class="emoji-warning-right-top"></div>
+<div class="emoji-warning-right-top-M"></div>
 
 # Danger of Using File Date & Time
 
@@ -514,7 +514,7 @@ class: inverse, middle, center
 ### Was the true latest file deleted?
 
 ---
-<div class="emoji-exploding-head-right-bottom"></div>
+<div class="emoji-exploding-head-right-bottom-M"></div>
 
 # Other Problems
 
@@ -573,6 +573,8 @@ class: middle
 
 ---
 class: top center
+
+<div class="GH-Octocat-right-top"></div> 
 
 ### https://github.com/saghirb/Getting-Started-in-R
 
