@@ -3,3 +3,6 @@ knitr
 kableExtra
 emojifont
 here
+webshot
+ggplot2
+dplyr

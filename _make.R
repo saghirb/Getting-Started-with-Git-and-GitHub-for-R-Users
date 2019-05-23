@@ -9,10 +9,9 @@ rmarkdown::render(here("Presentation", "Getting-Started-with-Git-and-GitHub-for-
                   clean = TRUE, output_dir = here("Presentation"))
 
 # Create a PDF version of the slides to share
-# library(webshot)
-# htmlSlides <- paste0("file://",
-#                     normalizePath(here("Presentation",
-#                                        "Getting-Started-with-Git-and-GitHub-for-R-Users.html")))
-# webshot(htmlSlides, here("Presentation", "GSiGGHR.pdf"),
-#         vwidth = 960, vheight = 540, zoom = 1.5, cliprect = "viewport")
-#
+library(webshot)
+htmlSlides <- paste0("file://",
+                    normalizePath(here("Presentation",
+                                       "Getting-Started-with-Git-and-GitHub-for-R-Users.html")))
+webshot(htmlSlides, here("Presentation", "Getting-Started-with-Git-and-GitHub-for-R-Users.pdf"),
+        vwidth = 960, vheight = 540, zoom = 1.5, cliprect = "viewport")

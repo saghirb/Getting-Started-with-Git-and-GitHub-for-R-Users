@@ -1015,4 +1015,185 @@ class: inverse
 
 ### 3. Push (upload) your work to your GitHub repository
 
+---
+class: center
+
+<div class="GH-Octocat-right-top"></div> 
+
+# Login to GitHub
+
+```{r 40-GitHub-Login, echo=FALSE, out.width="35%"}
+knitr::include_graphics("images/ScreenShots/40-GitHub-Login.png")
+```
+
+---
+class: center
+
+<div class="GH-Octocat-right-top"></div> 
+
+# Create New Repository
+
+.left-plot[
+**Use RStudio project name**
+```{r 41-RStudio-Repo-Name, echo=FALSE, out.width="70%"}
+knitr::include_graphics("images/ScreenShots/41-RStudio-Repo-Name.png")
+```
+
+**From GitHub**
+```{r 42-New-Repository, echo=FALSE, out.width="70%"}
+knitr::include_graphics("images/ScreenShots/42-New-Repository.png")
+```
+]
+
+.right-plot[
+```{r 43-Create-Repo, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/43-Create-Repo.png")
+```
+]
+
+---
+class: center
+
+<div class="GH-Octocat-right-top"></div> 
+
+# New Repository Created
+
+```{r 44-GitHub-Repo-Next, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/44-GitHub-Repo-Next.png")
+```
+
+---
+class: middle
+<div class="GH-Octocat-right-top"></div> 
+
+**Copy Commands to link Git ("via RStudio") to GitHub**
+```{r 45-GitHub-Cmd-Copy, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/45-GitHub-Cmd-Copy.png")
+```
+
+**Paste into RStudio "Terminal" Tab**
+```{r 46-Git-remote-origin, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/46-Git-remote-origin.png")
+```
+
+---
+class: center
+
+<div class="GH-Octocat-right-top"></div> 
+
+## Push local git repository to GitHub
+
+```{r 47-Git-Push-to-origin, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/47-Git-Push-to-origin.png")
+```
+
+---
+class: middle, center
+
+<div class="GH-Octocat-right-top"></div> 
+
+## "Pushed" to "origin" (on GitHub)
+
+```{r 48-Pushed-to-GitHub, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/48-Pushed-to-GitHub.png")
+```
+
+---
+class: center
+
+<div class="GH-Octocat-right-top"></div> 
+<div class="emoji-partying-left-bottom-S"></div>
+<div class="emoji-partying-right-bottom-S"></div>
+
+# Check GitHub Repository
+
+```{r 49-Back-to-GitHub, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/49-Back-to-GitHub.png")
+```
+
+---
+class: inverse
+
+<div class="GH-Mark-White-right-top"></div> 
+
+# Exercise: Git, RStudio & GitHub 
+
+<br>
+
+### 1. Create a `README.md` file
+
+### &nbsp;&nbsp;&nbsp; - See next slide for contents
+
+### 2. Modify `Learning-about-GitHub.Rmd`
+
+### &nbsp;&nbsp;&nbsp; - See following slide 
+
+### 3. Commit changes locally
+
+### 4. Push to GitHub from RStudio
+
+---
+<div class="rlogo-logo-right-top"></div> 
+
+# `README.md` Contents
+
+```
+# GitHub R Demo
+
+## Chick Weight Data
+
+The `ChickWeight` are analysed as follows:
+
++ Summary statistics for weight by Diet and Time
++ Box whisker plots by Diet over Time for weight
+
+## Further information
+
+Please see https://ilustat.com/shared/Getting-Started-in-R.pdf
+```
+
+**Note: Create an "R Script" and save as "README.md". Click on "Yes"
+if you get the following message:**
+```{r 50-Confirm-Change-File-Type, echo=FALSE, out.width="50%"}
+knitr::include_graphics("images/ScreenShots/50-Confirm-Change-File-Type.png")
+```
+
+
+---
+<div class="rlogo-logo-right-top"></div> 
+
+## Modify `Learning-about-GitHub.Rmd`  
+
+<br>
+
+### Replace the code in `CWplot` chunk with:
+```
+library(ggplot2)
+library(dplyr)
+
+ChickWeight %>% 
+  ggplot(aes(Time, weight, colour=Diet)) +
+  geom_point() +
+  facet_wrap(~Diet) + 
+  stat_summary(fun.y="mean", geom="line", colour="black") +
+  theme(legend.position = "none") +
+  ggtitle("Chick Weight over Time by Diet") +
+  xlab("Time (days)") +
+  ylab("Weight (grams)")
+```
+
+
+---
+class: inverse
+
+<div class="GH-Mark-White-right-top"></div> 
+
+# Final Exercise
+
+---
+class: inverse
+
+<div class="GH-Mark-White-right-top"></div> 
+
+# Summary
 
