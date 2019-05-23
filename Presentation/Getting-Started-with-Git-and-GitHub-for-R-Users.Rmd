@@ -56,9 +56,9 @@ options(
 
 class: middle, center
 
-<div class="git-icon-red-left-top"></div> 
-<div class="GH-Octocat-right-bottom"></div> 
-<div class="rlogo-logo-left-bottom"></div> 
+<div class="git-icon-red-left-top-M"></div> 
+<div class="GH-Octocat-right-bottom-M"></div> 
+<div class="rlogo-logo-left-bottom-M"></div> 
 
 # Getting Start with Git
 
@@ -85,9 +85,9 @@ class: inverse, middle, center
 ---
 class: middle, center
 
-<div class="git-icon-red-left-top"></div> 
-<div class="GH-Octocat-right-bottom"></div> 
-<div class="rlogo-logo-left-bottom"></div> 
+<div class="git-icon-red-left-top-M"></div> 
+<div class="GH-Octocat-right-bottom-M"></div> 
+<div class="rlogo-logo-left-bottom-M"></div> 
 
 # Outline
 
@@ -809,31 +809,24 @@ class: middle, center
 
 <div class="git-icon-red-right-top"></div> 
 
-# Title
+# Create New R Markdown Document
 
-```{r 10-New-Rmd-Doc, echo=FALSE, out.width="80%"}
+.left-plot[
+```{r 10-New-Rmd-Doc, echo=FALSE, out.width="85%"}
 knitr::include_graphics("images/ScreenShots/10-New-Rmd-Doc.png")
 ```
+]
 
----
-class: middle, center
-
-<div class="git-icon-red-right-top"></div> 
-
-# Title
-
-```{r 11-New-Rmd-Setup, echo=FALSE, out.width="80%"}
+.right-plot[
+```{r 11-New-Rmd-Setup, echo=FALSE, out.width="75%"}
 knitr::include_graphics("images/ScreenShots/11-New-Rmd-Setup.png")
 ```
+]
 
 ---
-class: middle, center
+class: inverse, middle, center
 
-<div class="git-icon-red-right-top"></div> 
-
-# Title
-
-```{r 12-New-Rmd-Open, echo=FALSE, out.width="80%"}
+```{r 12-New-Rmd-Open, echo=FALSE}
 knitr::include_graphics("images/ScreenShots/12-New-Rmd-Open.png")
 ```
 
@@ -842,20 +835,16 @@ class: middle, center
 
 <div class="git-icon-red-right-top"></div> 
 
-# Title
+# Save R Markdown File
 
-```{r 13-New-Rmd-Save, echo=FALSE, out.width="80%"}
+```{r 13-New-Rmd-Save, echo=FALSE, out.width="60%"}
 knitr::include_graphics("images/ScreenShots/13-New-Rmd-Save.png")
 ```
 
 ---
-class: middle, center
+class: inverse, middle, center
 
-<div class="git-icon-red-right-top"></div> 
-
-# Title
-
-```{r 14-New-Rmd-Screen, echo=FALSE, out.width="80%"}
+```{r 14-New-Rmd-Screen, echo=FALSE}
 knitr::include_graphics("images/ScreenShots/14-New-Rmd-Screen.png")
 ```
 
@@ -864,64 +853,71 @@ class: middle, center
 
 <div class="git-icon-red-right-top"></div> 
 
-# Title
+# "Commit" Untracked Files
 
-```{r 15-Untracked-files, echo=FALSE, out.width="80%"}
+.left-plot[
+```{r 15-Untracked-files, echo=FALSE}
 knitr::include_graphics("images/ScreenShots/15-Untracked-files.png")
-```
-
----
-class: middle, center
-
-<div class="git-icon-red-right-top"></div> 
-
-# Title
-
-```{r 16-Commit-Button, echo=FALSE, out.width="80%"}
 knitr::include_graphics("images/ScreenShots/16-Commit-Button.png")
 ```
+]
 
----
-class: middle, center
-
-<div class="git-icon-red-right-top"></div> 
-
-# Title
-
-```{r 17-First-Commit, echo=FALSE, out.width="80%"}
+.right-plot[
+```{r 16-Commit-Button, echo=FALSE, out.width="80%"}
 knitr::include_graphics("images/ScreenShots/17-First-Commit.png")
 ```
+]
 
 ---
 class: middle, center
 
 <div class="git-icon-red-right-top"></div> 
 
-# Title
+# Successful First Commit 
 
 ```{r 18-Commited, echo=FALSE, out.width="80%"}
 knitr::include_graphics("images/ScreenShots/18-Commited.png")
 ```
 
 ---
-class: middle, center
+class: inverse, middle, center
+
+<div class="git-icon-white-right-top"></div> 
+
+# Commit
+
+<br>
+
+# Your files are now a part of the 
+
+# Git history of this project.
+
+---
+class: center, middle
 
 <div class="git-icon-red-right-top"></div> 
 
-# Title
+# Git Panel Should be Clear
 
-```{r 19-git-panel-empty, echo=FALSE, out.width="80%"}
+```{r 19-git-panel-empty, echo=FALSE, out.width="70%"}
 knitr::include_graphics("images/ScreenShots/19-git-panel-empty.png")
 ```
 
 ---
-class: middle, center
+class: inverse, middle, center
 
-<div class="git-icon-red-right-top"></div> 
+<div class="git-icon-white-right-top"></div> 
 
-# Title
+# Let's Modify Learning-about-GitHub.Rmd
 
-```{r 20-Modify-Rmd, echo=FALSE, out.width="80%"}
+<br>
+
+# Then commit the changes... 
+
+---
+class: inverse, middle, center
+
+```{r 20-Modify-Rmd, echo=FALSE, out.width="90%"}
 knitr::include_graphics("images/ScreenShots/20-Modify-Rmd.png")
 ```
 
@@ -930,9 +926,9 @@ class: middle, center
 
 <div class="git-icon-red-right-top"></div> 
 
-# Title
+# Knit the R Markdown File
 
-```{r 21-Knitted-Rmd-HTML, echo=FALSE, out.width="80%"}
+```{r 21-Knitted-Rmd-HTML, echo=FALSE, out.width="66%"}
 knitr::include_graphics("images/ScreenShots/21-Knitted-Rmd-HTML.png")
 ```
 
@@ -941,7 +937,7 @@ class: middle, center
 
 <div class="git-icon-red-right-top"></div> 
 
-# Title
+# Rmd Modified & Files Untracked
 
 ```{r 22-New-Files-to-commit, echo=FALSE, out.width="80%"}
 knitr::include_graphics("images/ScreenShots/22-New-Files-to-commit.png")
@@ -952,29 +948,48 @@ class: middle, center
 
 <div class="git-icon-red-right-top"></div> 
 
-# Title
+# Let's Commit Again
 
-```{r 23-Second-Commit, echo=FALSE, out.width="80%"}
+```{r 23-Second-Commit, echo=FALSE, out.width="60%"}
 knitr::include_graphics("images/ScreenShots/23-Second-Commit.png")
 ```
+
+---
+class: center
+
+<div class="git-icon-red-right-top"></div> 
+
+# Git Status Explain
+
+<br>
+
+|       |      |
+|:----:|:-----|
+| `r knitr::include_graphics("images/ScreenShots/Git-Status-A-Added.png")` | File Added |
+| `r knitr::include_graphics("images/ScreenShots/Git-Status-D-Deleted.png")` | File Deleted |
+| `r knitr::include_graphics("images/ScreenShots/Git-Status-M-Modified.png")` | File Modified |
+| `r knitr::include_graphics("images/ScreenShots/Git-Status-R-Renamed.png")` | File Renamed |
+| `r knitr::include_graphics("images/ScreenShots/Git-Status-Qmark.png")` | File Untracked by Git |
 
 ---
 class: middle, center
 
 <div class="git-icon-red-right-top"></div> 
 
-# Title
+# Second Commit Successful
 
 ```{r 24-Second-Complete, echo=FALSE, out.width="80%"}
 knitr::include_graphics("images/ScreenShots/24-Second-Complete.png")
 ```
 
 ---
-class: middle, center
+class: inverse, center
 
-<div class="git-icon-red-right-top"></div> 
+<div class="git-icon-white-right-top"></div> 
 
-# Title
+# Exercise
+
+## Look at your commit history in RStudio
 
 ```{r 25-Git-History, echo=FALSE, out.width="80%"}
 knitr::include_graphics("images/ScreenShots/25-Git-History.png")

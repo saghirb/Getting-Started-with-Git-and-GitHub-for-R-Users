@@ -46,6 +46,18 @@ content: "";
     background-image: url(images/Rlogo.png);
 }
 
+.rlogo-logo-left-bottom-M {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    left:    60px;
+    height: 160px;
+    width:  160px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/Rlogo.png);
+}
+
 .rlogo-logo-right-bottom {
 content: "";
     position: absolute;
@@ -65,6 +77,18 @@ content: "";
     left:    60px;
     height: 120px;
     width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/Git-Icon-1788C.png);
+}
+
+.git-icon-red-left-top-M {
+content: "";
+    position: absolute;
+    top:     40px;
+    left:    60px;
+    height: 160px;
+    width:  160px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(images/Git-Icon-1788C.png);
@@ -166,6 +190,18 @@ content: "";
     background-image: url(images/Octocat.jpg);
 }
 
+.GH-Octocat-left-bottom-M {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    left:    60px;
+    height: 160px;
+    width:  160px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/Octocat.jpg);
+}
+
 .GH-Octocat-right-bottom {
 content: "";
     position: absolute;
@@ -173,6 +209,18 @@ content: "";
     right:   60px;
     height: 120px;
     width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/Octocat.jpg);
+}
+
+.GH-Octocat-right-bottom-M {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    right:   60px;
+    height: 160px;
+    width:  160px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(images/Octocat.jpg);
@@ -241,7 +289,7 @@ content: "";
     background-image: url(images/1f62d-crying.svg);
 }
 
-.emoji-crying-right-bottom-L {
+.emoji-crying-right-bottom-M {
 content: "";
     position: absolute;
     bottom:  40px;
@@ -265,7 +313,7 @@ content: "";
     background-image: url(images/1f92f-exploding-head.svg);
 }
 
-.emoji-exploding-head-right-bottom-L {
+.emoji-exploding-head-right-bottom-M {
 content: "";
     position: absolute;
     bottom:  40px;
