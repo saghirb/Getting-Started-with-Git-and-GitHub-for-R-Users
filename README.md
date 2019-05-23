@@ -20,4 +20,4 @@ their R projects.
 # Running the Workshop 
 
 - Use the workshop presentation (HTML):
-    + (https://github.com/saghirb/Getting-Started-with-Git-and-GitHub-for-R-Users/tree/master/Presentation)
+    + https://github.com/saghirb/Getting-Started-with-Git-and-GitHub-for-R-Users/tree/master/Presentation
