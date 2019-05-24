@@ -4,6 +4,11 @@ Contributors
 ## Authors
 - [Saghir Bashir](https://github.com/saghirb)
 
+## Course Facilitators
+
+- [João Malato](https://github.com/jtmalato) 
+- [Monica Eusébio](https://github.com/meusebio)
+
 ## List of Contributors
 - 
 

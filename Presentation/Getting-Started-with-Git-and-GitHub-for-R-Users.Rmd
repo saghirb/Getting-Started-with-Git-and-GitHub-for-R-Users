@@ -513,7 +513,7 @@ class: inverse, middle, center
 
 ### ...
 ]
-
+--
 .pull-right[
 ### Continue from where?
 
@@ -605,7 +605,7 @@ class: center
 
 ### https://github.com/saghirb/Getting-Started-in-R
 
-```{r GSiR-GitHub, echo=FALSE, out.width="80%"}
+```{r GSiR-GitHub, echo=FALSE, out.width="86%"}
 knitr::include_graphics("images/saghirb-GSiR-GitHub.jpg")
 ```
 
@@ -666,7 +666,7 @@ class: middle, center
 # Then we will link back to GitHub.
 
 ---
-class: middle, center
+class: center
 
 <div class="rlogo-logo-right-top"></div> 
 
@@ -685,7 +685,7 @@ knitr::include_graphics("images/ScreenShots/02-RStudio-Data-Save-Options.png")
 ]
 
 ---
-class: middle, center
+class: center
 
 <div class="git-icon-red-right-top"></div> 
 
@@ -693,7 +693,7 @@ class: middle, center
 
 .left-plot[
 ```{r GlobalTools2, echo=FALSE, out.width="90%"}
-knitr::include_graphics("images/ScreenShots/03-RStudio-New-Projects.png")
+knitr::include_graphics("images/ScreenShots/01-RStudio-Tools-Global-Options.png")
 ```
 ]
 
@@ -741,7 +741,7 @@ class: inverse, middle, center
 # Let's start a new project.
 
 ---
-class: middle, center
+class: center
 
 <div class="git-icon-red-right-top"></div> 
 
@@ -749,7 +749,7 @@ class: middle, center
 
 .left-plot[
 ```{r NewProject1, echo=FALSE, out.width="90%"}
-knitr::include_graphics("images/ScreenShots/01-RStudio-Tools-Global-Options.png")
+knitr::include_graphics("images/ScreenShots/03-RStudio-New-Projects.png")
 ```
 ]
 
@@ -760,7 +760,7 @@ knitr::include_graphics("images/ScreenShots/05-RStudio-New-Project-Dir.png")
 ]
 
 ---
-class: middle, center
+class: center
 
 <div class="git-icon-red-right-top"></div> 
 
@@ -771,7 +771,7 @@ knitr::include_graphics("images/ScreenShots/06-RStudio-New-Project-Dir2.png")
 ```
 
 ---
-class: middle, center
+class: center
 
 <div class="git-icon-red-right-top"></div> 
 
@@ -782,7 +782,7 @@ knitr::include_graphics("images/ScreenShots/07-RStudio-New-Project-with-Git.png"
 ```
 
 ---
-class: middle, center
+class: center
 
 <div class="git-icon-red-right-top"></div> 
 
@@ -808,7 +808,7 @@ class: inverse, middle
 ## 4. Save to your on-line GitHub account.
 
 ---
-class: middle, center
+class: center
 
 <div class="git-icon-red-right-top"></div> 
 
@@ -834,7 +834,7 @@ knitr::include_graphics("images/ScreenShots/12-New-Rmd-Open.png")
 ```
 
 ---
-class: middle, center
+class: center
 
 <div class="git-icon-red-right-top"></div> 
 
@@ -852,7 +852,7 @@ knitr::include_graphics("images/ScreenShots/14-New-Rmd-Screen.png")
 ```
 
 ---
-class: middle, center
+class: center
 
 <div class="git-icon-red-right-top"></div> 
 
@@ -883,7 +883,7 @@ knitr::include_graphics("images/ScreenShots/18-Commited.png")
 ```
 
 ---
-class: center, middle
+class: center
 
 <div class="git-icon-red-right-top"></div> 
 
@@ -926,7 +926,7 @@ knitr::include_graphics("images/ScreenShots/20-Modify-Rmd.png")
 ```
 
 ---
-class: middle, center
+class: center
 
 <div class="git-icon-red-right-top"></div> 
 
@@ -937,7 +937,7 @@ knitr::include_graphics("images/ScreenShots/21-Knitted-Rmd-HTML.png")
 ```
 
 ---
-class: middle, center
+class: center
 
 <div class="git-icon-red-right-top"></div> 
 
@@ -948,7 +948,7 @@ knitr::include_graphics("images/ScreenShots/22-New-Files-to-commit.png")
 ```
 
 ---
-class: middle, center
+class: center
 
 <div class="git-icon-red-right-top"></div> 
 
@@ -976,11 +976,13 @@ class: center
 | `r knitr::include_graphics("images/ScreenShots/Git-Status-Qmark.png")` | File Untracked by Git |
 
 ---
-class: middle, center
+class: center
 
 <div class="git-icon-red-right-top"></div> 
 
 # Second Commit Successful
+
+<br>
 
 ```{r 24-Second-Complete, echo=FALSE, out.width="80%"}
 knitr::include_graphics("images/ScreenShots/24-Second-Complete.png")
@@ -1097,7 +1099,7 @@ knitr::include_graphics("images/ScreenShots/47-Git-Push-to-origin.png")
 ```
 
 ---
-class: middle, center
+class: center
 
 <div class="GH-Octocat-right-top"></div> 
 
@@ -1304,7 +1306,7 @@ knitr::include_graphics("images/ScreenShots/70-Repo-Clone-Zip.png")
 ```
 
 ---
-class: middle, center
+class: center
 <div class="GH-Octocat-left-top"></div> 
 <div class="emoji-partying-right-bottom-S"></div>
 
@@ -1350,13 +1352,13 @@ class: inverse
 
 ### 2. Edit the file `20190524-Comments.Rmd`.
 
-### &nbsp;&nbsp;&nbsp; - Add your Name and three comments.
+#### &nbsp;&nbsp;&nbsp; - Add your Name and three comments.
 
 ### 3. Create a "New Pull Request" (with comments).
 
-### &nbsp;&nbsp;&nbsp; - Click "Create Pull Request" to submit.
+#### &nbsp;&nbsp;&nbsp; - Click "Create Pull Request" to submit.
 
-### &nbsp;&nbsp;&nbsp; - The owner (saghirb) will receive it.
+#### &nbsp;&nbsp;&nbsp; - The owner (saghirb) will receive it.
 
 ---
 class: inverse
@@ -1378,6 +1380,18 @@ class: inverse
 
 ### &nbsp;&nbsp;&nbsp; - The rewards and benefits are far greater!
 
+---
+class: inverse
+
+# Feedback
+
+## Please send your feedback, corrections, comments via:
+
+### &nbsp;&nbsp;&nbsp; - https://github.com/saghirb/Getting-Started-with-Git-and-GitHub-for-R-Users or
+
+### &nbsp;&nbsp;&nbsp; - https://twitter.com/ilustat
+
+## Thanks
 
 ---
 class: inverse, center, middle
