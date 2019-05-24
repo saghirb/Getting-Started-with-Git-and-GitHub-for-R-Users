@@ -1,5 +1,3 @@
-assign1	
-assign2	age
 unnamed-chunk-1	fread	here	library
 unnamed-chunk-2	fread	here	library
 unnamed-chunk-3	fread	here	library
@@ -10,16 +8,17 @@ unnamed-chunk-7	fread	here	library
 unnamed-chunk-8	fread	here	library
 unnamed-chunk-9	fread	here	library
 unnamed-chunk-10	fread	here	library
+GSiR-GitHub	::
 GlobalTools	::
 RDataSave	::
 GlobalTools2	::
 RStudioGit	::
+RStudioTerm	::
 NewProject1	::
 NewProject2	::
 NewProject4	::
 NewProject6	::
 NewProject8	::
-RStudioTerm	::
 10-New-Rmd-Doc	::
 11-New-Rmd-Setup	::
 12-New-Rmd-Open	::
@@ -27,19 +26,16 @@ RStudioTerm	::
 14-New-Rmd-Screen	::
 15-Untracked-files	::
 16-Commit-Button	::
-17-First-Commit	::
 18-Commited	::
 19-git-panel-empty	::
 20-Modify-Rmd	::
 21-Knitted-Rmd-HTML	::
-22-New-Files to commit	::
+22-New-Files-to-commit	::
 23-Second-Commit	::
 24-Second-Complete	::
 25-Git-History	::
-22-New-Files-to-commit	::
-setup	::	$	$<-	if	library	options
-GSiR-GitHub	::
-40-RStudio-Repo-Name	::
+40-GitHub-Login	::
+41-RStudio-Repo-Name	::
 42-New-Repository	::
 43-Create-Repo	::
 44-GitHub-Repo-Next	::
@@ -48,7 +44,4 @@ GSiR-GitHub	::
 47-Git-Push-to-origin	::
 48-Pushed-to-GitHub	::
 49-Back-to-GitHub	::
-40-GitHub-Login	::
-41-RStudio-Repo-Name	::
 50-Confirm-Change-File-Type	::
-CWplot	%>%	~	aes	ChickWeight	Diet	facet_wrap	geom_point	ggplot	ggtitle	library	stat_summary	theme	Time	weight	xlab	ylab

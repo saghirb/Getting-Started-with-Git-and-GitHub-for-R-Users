@@ -793,7 +793,7 @@ class: inverse, middle
 
 ## 1. Create an R file.
 
-## 2. Save ("commit") it using git.
+## 2. **Commit** to git (part of git history).
 
 ## 3. Modify the file and "commit" again. 
 
