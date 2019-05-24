@@ -1,4 +1,4 @@
-# Getting Start with Git and GitHub for R Users
+# Getting Started with Git and GitHub for R Users
 
 Teach or learn how to work with Git, GitHub and RStudio for your R projects.
 
