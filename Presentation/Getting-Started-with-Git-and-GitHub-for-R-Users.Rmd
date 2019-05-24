@@ -68,7 +68,6 @@ class: middle, center
 
 ### Saghir Bashir<br><br>24th May 2019
 
-
 ---
 class: inverse, middle, center
 
@@ -100,11 +99,45 @@ class: middle, center
 ## Summary
 
 ---
+class: inverse
+<div class="git-icon-white-right-top"></div> 
+<div class="GH-Mark-White-right-bottom"></div> 
+
+# Prerequisites
+
+## Latest versions of: 
+
+### &nbsp;&nbsp;&nbsp; 1. R: https://cran.r-project.org
+
+### &nbsp;&nbsp;&nbsp; 2. RStudio: https://www.rstudio.com/products/rstudio
+
+### &nbsp;&nbsp;&nbsp; 3. git: https://git-scm.com/downloads
+
+## An account on GitHub: https://github.com/
+
+---
 class: inverse, middle, center
 
-# Motivation
+<div class="git-icon-white-right-top"></div> 
+
+# Accept default options 
+
+# during git installation.
+
 <br>
-# Why?
+
+# https://git-scm.com/downloads
+
+---
+class: inverse, middle, center
+<div class="git-icon-white-left-top"></div> 
+<div class="GH-Mark-White-right-top"></div> 
+
+# Using Git and GitHub
+
+<br>
+
+# Motivation
 
 ---
 <div class="rlogo-logo-right-top"></div>
@@ -476,7 +509,7 @@ class: inverse, middle, center
 
 ### Receive updated data.
 
-### Discover an error.
+### Discovers an error.
 
 ### ...
 ]
@@ -507,13 +540,14 @@ class: inverse, middle, center
 
 ## They are not reliable
 
-### What do they really represent? Modified? Opened?
+### &nbsp;&nbsp;&nbsp; - What do they really represent? Modified? Opened?
 
-### Did you modify the wrong file before?
+### &nbsp;&nbsp;&nbsp; - Did you modify the wrong file before?
 
-### Was the true latest file deleted?
+### &nbsp;&nbsp;&nbsp; - Was the true latest file deleted?
 
 ---
+<div class="emoji-warning-right-top-M"></div>
 <div class="emoji-exploding-head-right-bottom-M"></div>
 
 # Other Problems
@@ -556,13 +590,13 @@ class: inverse, middle
 
 # Exercise
 
-## Learn GitHub through observation.
+## &nbsp;&nbsp;&nbsp; Learn GitHub through observation.
 
-## What do you observe? 
+## &nbsp;&nbsp;&nbsp; What do you observe? 
 
-## What do you understand?
+## &nbsp;&nbsp;&nbsp; What do you understand?
 
-## It is not about being right.
+## &nbsp;&nbsp;&nbsp; It is not about being right.
 
 ---
 class: center
@@ -571,7 +605,7 @@ class: center
 
 ### https://github.com/saghirb/Getting-Started-in-R
 
-```{r GSiR-GitHub, echo=FALSE, out.width="90%"}
+```{r GSiR-GitHub, echo=FALSE, out.width="80%"}
 knitr::include_graphics("images/saghirb-GSiR-GitHub.jpg")
 ```
 
@@ -615,21 +649,6 @@ knitr::include_graphics("images/saghirb-GSiR-GitHub.jpg")
 class: inverse, middle, center
 
 <div class="GH-Mark-White-right-top"></div> 
-
-# Sign up to GitHub*
-
-<br>
-
-# https://github.com/
-
-<br><br><br>
-
-`*` If you do not agree with the terms and conditions let me know.
-
----
-class: inverse, middle, center
-
-<div class="GH-Mark-White-right-top"></div> 
 <div class="git-icon-white-left-top"></div> 
 
 # Git, GitHub & RStudio
@@ -645,17 +664,6 @@ class: middle, center
 # Let's start by using Git in RStudio.
 
 # Then we will link back to GitHub.
-
----
-class: inverse, middle, center
-
-<div class="git-icon-white-right-top"></div> 
-
-# Install git from:
-
-## https://git-scm.com/downloads
-
-## Accept default installation options.
 
 ---
 class: middle, center
@@ -1186,6 +1194,7 @@ ChickWeight %>%
 ### Knit the file to HTML
 
 ---
+class:inverse
 <div class="rlogo-logo-right-top"></div> 
 <div class="git-icon-red-right-bottom"></div> 
 
@@ -1193,16 +1202,141 @@ ChickWeight %>%
 
 <br>
 
-### Commit changes using git from RStudio.
+### 1. Commit changes using git from RStudio.
 
 ### &nbsp;&nbsp;&nbsp; - Don't forget to write a commit message.
 
-### Synchronise to GitHub by clicking on the "Push" button.
+### 2. Synchronise to GitHub using the RStudio "Push" button.
 
-### Check your repository on GitHub
+### 3. Check your repository on GitHub
 
 ### &nbsp;&nbsp;&nbsp; - Check the Commit history
 
+
+
+
+---
+class: center
+
+<div class="git-icon-red-right-top"></div> 
+
+# Commit New Changes
+
+```{r 60-CW-ggplot-commit, echo=FALSE, out.width="90%"}
+knitr::include_graphics("images/ScreenShots/60-CW-ggplot-commit.png")
+```
+
+---
+class: center
+
+<div class="git-icon-red-right-top"></div> 
+
+# Always Add a (Useful) Message
+
+```{r 61-CW-ggplot-commit-message, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/61-CW-ggplot-commit-message.png")
+```
+
+---
+class: center
+
+<div class="git-icon-red-right-top"></div> 
+
+# Successfully Committed
+
+```{r 62-CW-commited, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/62-CW-commited.png")
+```
+
+---
+class: center
+
+<div class="git-icon-red-left-top"></div> 
+<div class="GH-Octocat-right-top"></div> 
+
+# Push Local Changes to GitHub
+
+```{r 63-CW-Push-to-GitHub, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/63-CW-Push-to-GitHub.png")
+```
+
+---
+class: center
+
+<div class="GH-Octocat-right-top"></div> 
+
+# Use Your Login Credentials
+
+```{r 64-CW-GitHub-Login, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/64-CW-GitHub-Login.png")
+```
+
+---
+class: middle, center
+
+<div class="GH-Octocat-right-top"></div> 
+
+# Check GitHub
+
+```{r 65-CW-on-GitHub, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/65-CW-on-GitHub.png")
+```
+
+---
+class: inverse, middle, center
+<div class="GH-Mark-left-top"></div> 
+<div class="emoji-crying-right-bottom-M"></div>
+
+# "I lost my work! My computer crashed!"
+
+<br>
+
+# "I messed up my project!"
+
+---
+class: center
+<div class="GH-Octocat-right-top"></div> 
+
+# Git Clone or Download Zip
+
+```{r 70-Repo-Clone-Zip, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/70-Repo-Clone-Zip.png")
+```
+
+---
+class: middle, center
+<div class="GH-Octocat-left-top"></div> 
+<div class="emoji-partying-right-bottom-S"></div>
+
+# Extract From Zip - Rescued
+
+```{r 71-Repo-Zip-Extract, echo=FALSE, out.width="70%"}
+knitr::include_graphics("images/ScreenShots/71-Repo-Zip-Extract.png")
+```
+
+---
+class: inverse, middle, center
+<div class="git-icon-white-left-top"></div> 
+<div class="GH-Mark-White-right-top"></div> 
+
+# Next Steps
+
+## Make git and GitHub part of your workflow.
+
+## Learn how to collaborate with pull requests.
+
+## Be patient. The rewards are big.
+
+---
+class: inverse, middle, center
+<div class="git-icon-white-left-top"></div> 
+<div class="GH-Mark-White-right-top"></div> 
+
+# Final Live Demo & Exercise
+
+<br> 
+
+# Collaborating using Pull requests.
 
 ---
 class: inverse
@@ -1218,11 +1352,11 @@ class: inverse
 
 ### &nbsp;&nbsp;&nbsp; - Add your Name and three comments.
 
-### 3. Create a "New Pull Request" with comments.
+### 3. Create a "New Pull Request" (with comments).
 
-### &nbsp;&nbsp;&nbsp; - Then submit it by clicking "Create Pull Request."
+### &nbsp;&nbsp;&nbsp; - Click "Create Pull Request" to submit.
 
-### 4. Then the owner (saghirb) will receive it.
+### &nbsp;&nbsp;&nbsp; - The owner (saghirb) will receive it.
 
 ---
 class: inverse
