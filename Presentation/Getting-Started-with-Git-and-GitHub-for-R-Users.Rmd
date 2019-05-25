@@ -116,6 +116,20 @@ class: inverse
 ## An account on GitHub: https://github.com/
 
 ---
+class: inverse
+<div class="GH-Mark-White-right-top"></div> 
+
+# Windows (& perhaps MacOS) Users 
+
+<br> 
+
+## Install GitHub Desktop:
+
+## &nbsp;&nbsp;&nbsp; https://desktop.github.com/
+
+### Overcomes problems for participants using Windows 10.
+
+---
 class: inverse, middle, center
 
 <div class="git-icon-white-right-top"></div> 
@@ -1026,6 +1040,9 @@ class: inverse
 
 ### 3. Push (upload) your work to your GitHub repository.
 
+**Note: Windows 10 users experiencing problems can use 
+[GitHub Desktop](https://desktop.github.com/) instead to overcome them.**
+
 ---
 class: center
 
@@ -1128,8 +1145,6 @@ class: inverse
 <div class="GH-Mark-White-right-top"></div> 
 
 # Exercise: Git, RStudio & GitHub 
-
-<br>
 
 ### 1. Create a `README.md` file.
 
@@ -1317,11 +1332,13 @@ knitr::include_graphics("images/ScreenShots/71-Repo-Zip-Extract.png")
 ```
 
 ---
-class: inverse, middle, center
-<div class="git-icon-white-left-top"></div> 
-<div class="GH-Mark-White-right-top"></div> 
+class: inverse
+<div class="git-icon-white-right-top"></div> 
+<div class="GH-Mark-White-right-bottom"></div> 
 
 # Next Steps
+
+<br>
 
 ## Make git and GitHub part of your workflow.
 
@@ -1383,16 +1400,21 @@ class: inverse
 ---
 class: inverse
 
+.center[
 # Feedback
+]
 
-## Please send your feedback, corrections, comments via:
+## Please send your feedback or comments via:
 
 ### &nbsp;&nbsp;&nbsp; - https://github.com/saghirb/Getting-Started-with-Git-and-GitHub-for-R-Users or
 
 ### &nbsp;&nbsp;&nbsp; - https://twitter.com/ilustat
 
-## Thanks
+<br>
 
+.right[
+## Thanks!
+]
 ---
 class: inverse, center, middle
 

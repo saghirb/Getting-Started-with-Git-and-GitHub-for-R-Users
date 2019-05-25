@@ -10,11 +10,12 @@ Teach or learn how to work with Git, GitHub and RStudio for your R projects.
 
 ## Objectives
 
-+ Motivations to use Git and GitHub
++ Motivation to use Git and GitHub
 + Setup an RStudio project with Git
     + Track your work
     + Keep a history of your files
-+ Link your project to GitHub through RStudio
++ Link your project to GitHub
+    + Use RStudio to interact with GitHub
 
 ## Running the Workshop 
 
@@ -23,6 +24,13 @@ Teach or learn how to work with Git, GitHub and RStudio for your R projects.
 - Distribute the PDF version to participants:
     + https://github.com/saghirb/Getting-Started-with-Git-and-GitHub-for-R-Users/raw/master/Presentation/Getting-Started-with-Git-and-GitHub-for-R-Users.pdf
 
+### Important Note
+
+Some Microsoft Windows 10 users experienced (various) problems when they tried to synchronise
+with GitHub. As an alternative they can use [GitHub Desktop](https://desktop.github.com/).
+It might be enough to just to do the initial "synchronise" with GitHub Desktop and
+then revert to using RStudio.
+
 ## Re-creating the Workshop Materials.
 
 Run the [_make.R](https://github.com/saghirb/Getting-Started-with-Git-and-GitHub-for-R-Users/blob/master/_make.R) 
@@ -30,14 +38,15 @@ script in the R console.
 
 ## Workshops
 
-1. Presented to [Centro de Estatística e Aplicações - CEAUL](http://ceaul.org/) at 
-the [University of Lisbon](https://ciencias.ulisboa.pt/en). Support by [João Malato](https://github.com/jtmalato) and [Monica Eusébio](https://github.com/meusebio).
-Thanks to Monica and João for doing a great job.
+1. Presented for [Centro de Estatística e Aplicações - CEAUL](http://ceaul.org/) at 
+the [University of Lisbon](https://ciencias.ulisboa.pt/en). 
+    + Excellent support for participants given by [João Malato](https://github.com/jtmalato) 
+    and [Monica Eusébio](https://github.com/meusebio).
 
 
 # Announcements
 
 A reminder of announcements for this repository.
 
-- CEAUL - internal announcement.
+- [CEAUL](http://ceaul.org/) - internal announcement.
 
