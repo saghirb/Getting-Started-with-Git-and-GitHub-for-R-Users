@@ -1,5 +1,5 @@
 ---
-title: "Getting Start with Git and GitHub for R Users"
+title: "Getting Started with Git and GitHub for R Users"
 author: "Saghir Bashir"
 date: "`r format(Sys.time(), '%a %d %b %Y (%H:%M:%S)')`"
 output:
@@ -60,7 +60,7 @@ class: middle, center
 <div class="GH-Octocat-right-bottom-M"></div> 
 <div class="rlogo-logo-left-bottom-M"></div> 
 
-# Getting Start with Git
+# Getting Started with Git
 
 # and GitHub for R Users
 
