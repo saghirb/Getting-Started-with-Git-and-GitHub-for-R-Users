@@ -3,7 +3,7 @@
 Learn (or teach) how to work with Git, GitHub and RStudio for your R projects.
 
 Click [here](https://saghirb.github.io/shared/Getting-Started-with-Git-and-GitHub-for-R-Users.html) 
-to see HTML slides.
+to see the HTML slides.
 
 ![Title Slide](Presentation/images/Git-GitHub-R-Title-Slide.png)
 
