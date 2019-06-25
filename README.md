@@ -52,4 +52,6 @@ the [University of Lisbon](https://ciencias.ulisboa.pt/en).
 A reminder of announcements for this repository.
 
 - [CEAUL](http://ceaul.org/) - internal announcement.
+- [Twitter](https://twitter.com/ilustat/status/1132344138001727488)
+- [R Weekly (2019-22)](https://rweekly.org/2019-22.html#Resources)
 
