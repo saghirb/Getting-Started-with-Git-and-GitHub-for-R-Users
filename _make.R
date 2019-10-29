@@ -15,10 +15,11 @@ htmlSlides <- paste0("file://",
                     normalizePath(here("Presentation",
                                        "Getting-Started-with-Git-and-GitHub-for-R-Users.html")))
 webshot(htmlSlides, here("Presentation", "Getting-Started-with-Git-and-GitHub-for-R-Users.pdf"),
-        vwidth = 960, vheight = 540, zoom = 1.5, cliprect = "viewport")
+        vwidth = 960, vheight = 540, zoom = 0.9, cliprect = "viewport")
 
 # Create image of first slide to include as part of README.md
-webshot(htmlSlides, here("Presentation", "images", "Git-GitHub-R-Title-Slide.png"),
+htmlSlide1 <- paste0(htmlSlides, "#1")
+webshot(htmlSlide1, here("Presentation", "images", "Git-GitHub-R-Title-Slide.png"),
         delay = 5, vwidth = 640, vheight = 360, zoom = 1.5, cliprect = "viewport")
 
 
