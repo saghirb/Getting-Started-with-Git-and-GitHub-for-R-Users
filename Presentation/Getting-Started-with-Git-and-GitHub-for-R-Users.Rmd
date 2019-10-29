@@ -743,7 +743,7 @@ git config --global user.email "email@example.com"
 
 ### Check Settings
 ```
-git config --global
+git config --list
 ```
 ]
 

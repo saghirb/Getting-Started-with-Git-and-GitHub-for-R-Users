@@ -1,4 +1,5 @@
-## Run all files to prepare "Getting Start with Git and GitHub for R Users" workshop
+## Run all files to prepare "Getting Started with Git and GitHub for R Users" workshop
+makeStart <- Sys.time()
 
 # Setup
 library(here)
@@ -19,3 +20,8 @@ webshot(htmlSlides, here("Presentation", "Getting-Started-with-Git-and-GitHub-fo
 # Create image of first slide to include as part of README.md
 webshot(htmlSlides, here("Presentation", "images", "Git-GitHub-R-Title-Slide.png"),
         delay = 5, vwidth = 640, vheight = 360, zoom = 1.5, cliprect = "viewport")
+
+
+# Actual time taken to run this file.
+makeEnd <- Sys.time()
+difftime(makeEnd, makeStart)
